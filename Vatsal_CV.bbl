@@ -1,0 +1,171 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{vatsal2017a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{6}
+  \verb{doi}
+  \verb 10.1002/aic.15828
+  \endverb
+  \field{issn}{1547-5905}
+  \field{title}{On air entrainment in a water pool by impingement of a jet}
+  \verb{url}
+  \verb http://dx.doi.org/10.1002/aic.15828
+  \endverb
+  \field{journaltitle}{AIChE Journal}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017b}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{1}
+  \field{title}{Liquid Chain Genesis by Collision of Two Laminar Jets}
+  \field{journaltitle}{Physics of Fluids (Under Review)}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017c}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{2}
+  \field{title}{Liquid Chain Genesis by Collision of Two Laminar Jets}
+  \field{journaltitle}{Under Review}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017d}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{3}
+  \field{title}{Liquid Chain Genesis by Collision of Two Laminar Jets}
+  \field{journaltitle}{Under Review}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017e}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{4}
+  \field{title}{Liquid Chain Genesis by Collision of Two Laminar Jets}
+  \field{journaltitle}{Under Review}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017f}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sanjay}{S.}%
+     {Vatsal}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Arup~Kumar}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{SVDAK1}
+  \strng{fullhash}{SVDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{5}
+  \field{title}{Numerical Assessment of Hazard in Compartmental Fire Having
+  Steady Heat Release Rate from the Source}
+  \field{journaltitle}{Building Simulation}
+  \field{year}{2017}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
