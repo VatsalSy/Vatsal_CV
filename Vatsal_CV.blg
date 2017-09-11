@@ -2,11 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Vatsal_CV.aux
 The style file: biblatex.bst
-I couldn't open database file publications/conference2017.bib
----line 3 of file Vatsal_CV.aux
- : \bibdata{Vatsal_CV-blx,publications/journal2017,publications/conference2017
- :                                                                            ,publications/conference2016,publications/conference2015}
-I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -20,48 +15,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Vatsal_CV-blx.bib
 Database file #2: publications/journal2017.bib
+Database file #3: publications/conference2017.bib
+Database file #4: publications/conference2016.bib
+Database file #5: publications/conference2015.bib
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 7 entries,
+You've used 23 entries,
             6047 wiz_defined-function locations,
-            1150 strings with 8603 characters,
-and the built_in function-call counts, 19104 in all, are:
-= -- 661
-> -- 747
-< -- 135
-+ -- 247
-- -- 286
-* -- 1386
-:= -- 1396
+            1219 strings with 12335 characters,
+and the built_in function-call counts, 78073 in all, are:
+= -- 2841
+> -- 3276
+< -- 695
++ -- 1177
+- -- 1345
+* -- 6398
+:= -- 5118
 add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 57
+call.type$ -- 23
+change.case$ -- 329
 chr.to.int$ -- 36
-cite$ -- 12
-duplicate$ -- 2025
-empty$ -- 2011
-format.name$ -- 431
-if$ -- 4351
+cite$ -- 44
+duplicate$ -- 8340
+empty$ -- 7636
+format.name$ -- 2022
+if$ -- 17831
 int.to.chr$ -- 0
-int.to.str$ -- 28
+int.to.str$ -- 82
 missing$ -- 0
-newline$ -- 170
-num.names$ -- 269
-pop$ -- 1978
+newline$ -- 658
+num.names$ -- 1069
+pop$ -- 7273
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 465
 quote$ -- 0
-skip$ -- 1151
+skip$ -- 4789
 stack$ -- 0
-substring$ -- 258
-swap$ -- 661
-text.length$ -- 154
+substring$ -- 1349
+swap$ -- 2753
+text.length$ -- 629
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 254
+type$ -- 862
 warning$ -- 0
-while$ -- 148
+while$ -- 397
 width$ -- 0
-write$ -- 162
-(There was 1 error message)
+write$ -- 634
