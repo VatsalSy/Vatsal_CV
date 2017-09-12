@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.7)  12 SEP 2017 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.7)  12 SEP 2017 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1585,15 +1585,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./Vatsal_CV.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
-
-
-Package rerunfilecheck Warning: File `Vatsal_CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Vatsal_CV.out':
-(rerunfilecheck)             Before: 5E23D21DEB2F005E405A103DF3194B02;3080
-(rerunfilecheck)             After:  9EAB77D13763378DFE98E8E5B2BC0424;3080.
+Package rerunfilecheck Info: File `Vatsal_CV.out' has not changed.
+(rerunfilecheck)             Checksum: 9EAB77D13763378DFE98E8E5B2BC0424;3080.
 Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 \openout1 = `Vatsal_CV.run.xml'.
 
@@ -1614,7 +1607,7 @@ live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Vatsal_CV.pdf (4 pages, 125225 bytes).
+Output written on Vatsal_CV.pdf (4 pages, 125226 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
