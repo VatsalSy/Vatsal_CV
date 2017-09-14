@@ -42,7 +42,7 @@
   \verb{url}
   \verb http://dx.doi.org/10.1002/aic.15828
   \endverb
-  \field{journaltitle}{AIChE Journal}
+  \field{journaltitle}{AIChE J.}
   \field{year}{2017}
 \endentry
 
@@ -96,7 +96,7 @@
   \field{year}{2017}
 \endentry
 
-\entry{vatsal2017d}{article}{}
+\entry{vatsal2017v}{article}{}
   \name{author}{3}{}{%
     {{}%
      {Jain}{J.}%
@@ -117,9 +117,12 @@
   \keyw{Journal}
   \strng{namehash}{JAtDAK1}
   \strng{fullhash}{JAtDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{2}
   \field{title}{Consequences of inclined and dual jet impingement in stagnant
-  liquid and stratified layers.}
-  \field{journaltitle}{AIChE Journal (Under Review)}
+  liquid and stratified layers}
+  \field{journaltitle}{AIChE J. (Under Review)}
+  \field{year}{2017}
 \endentry
 
 \entry{vatsal2017e}{article}{}
@@ -319,7 +322,7 @@
   \strng{namehash}{JAtDAK1}
   \strng{fullhash}{JAtDAK1}
   \field{labelyear}{2017}
-  \field{extrayear}{2}
+  \field{extrayear}{3}
   \field{booktitle}{Paper ID: 68, 44th National Conference on Fluid Mechanics
   and Fluid Power}
   \field{title}{Interaction of bubble clusters formed due to adjacent
