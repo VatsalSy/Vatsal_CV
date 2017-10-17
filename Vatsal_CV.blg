@@ -15,50 +15,53 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Vatsal_CV-blx.bib
 Database file #2: publications/journal2017.bib
+Warning--I'm ignoring vatsal2017a's extra "keywords" field
+--line 12 of file publications/journal2017.bib
 Database file #3: publications/conference2017.bib
 Database file #4: publications/conference2016.bib
 Database file #5: publications/conference2015.bib
-Biblatex version: 3.0
+Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 23 entries,
             6047 wiz_defined-function locations,
-            1220 strings with 12334 characters,
-and the built_in function-call counts, 78073 in all, are:
-= -- 2841
+            1225 strings with 12459 characters,
+and the built_in function-call counts, 78311 in all, are:
+= -- 2852
 > -- 3276
 < -- 695
 + -- 1177
-- -- 1345
-* -- 6398
-:= -- 5118
+- -- 1349
+* -- 6442
+:= -- 5133
 add.period$ -- 0
 call.type$ -- 23
 change.case$ -- 329
 chr.to.int$ -- 36
 cite$ -- 44
-duplicate$ -- 8340
-empty$ -- 7636
+duplicate$ -- 8358
+empty$ -- 7668
 format.name$ -- 2022
-if$ -- 17831
+if$ -- 17872
 int.to.chr$ -- 0
 int.to.str$ -- 82
 missing$ -- 0
-newline$ -- 658
+newline$ -- 667
 num.names$ -- 1069
-pop$ -- 7273
+pop$ -- 7263
 preamble$ -- 1
 purify$ -- 465
 quote$ -- 0
 skip$ -- 4789
 stack$ -- 0
-substring$ -- 1349
-swap$ -- 2753
+substring$ -- 1382
+swap$ -- 2781
 text.length$ -- 629
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 862
 warning$ -- 0
-while$ -- 397
+while$ -- 401
 width$ -- 0
-write$ -- 634
+write$ -- 643
+(There was 1 warning)

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -38,11 +38,37 @@
   \verb 10.1002/aic.15828
   \endverb
   \field{issn}{1547-5905}
+  \field{number}{11}
+  \field{pages}{5169\bibrangedash 5181}
   \field{title}{On air entrainment in a water pool by impingement of a jet}
   \verb{url}
   \verb http://dx.doi.org/10.1002/aic.15828
   \endverb
+  \field{volume}{63}
   \field{journaltitle}{AIChE J.}
+  \field{year}{2017}
+\endentry
+
+\entry{vatsal2017c}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {\textbf{Sanjay, V}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {A.~K.}{A.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Journal}
+  \strng{namehash}{tDAK1}
+  \strng{fullhash}{tDAK1}
+  \field{labelyear}{2017}
+  \field{extrayear}{1}
+  \field{title}{Formation of Liquid Chain by Collision of Two Laminar Jets}
+  \field{journaltitle}{Physics of Fluids (Under Review)}
   \field{year}{2017}
 \endentry
 
@@ -67,32 +93,15 @@
   \strng{fullhash}{tDAK1}
   \field{labelyear}{2017}
   \field{extrayear}{2}
+  \verb{doi}
+  \verb 10.1007/s12273-017-0411-y
+  \endverb
   \field{title}{Numerical Assessment of Hazard in Compartmental Fire Having
   Steady Heat Release Rate from the Source}
-  \field{journaltitle}{Building Simulation (In Press)}
-  \field{year}{2017}
-\endentry
-
-\entry{vatsal2017c}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{1}
-  \field{title}{Liquid Chain Genesis by Collision of Two Laminar Jets}
-  \field{journaltitle}{Physics of Fluids (Under Review)}
+  \verb{url}
+  \verb https://doi.org/10.1007/s12273-017-0411-y
+  \endverb
+  \field{journaltitle}{Building Simulation}
   \field{year}{2017}
 \endentry
 
