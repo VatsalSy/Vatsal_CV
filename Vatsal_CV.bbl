@@ -67,8 +67,17 @@
   \strng{fullhash}{tDAK1}
   \field{labelyear}{2017}
   \field{extrayear}{1}
+  \verb{doi}
+  \verb 10.1063/1.4998288
+  \endverb
+  \field{number}{11}
+  \field{pages}{112101}
   \field{title}{Formation of Liquid Chain by Collision of Two Laminar Jets}
-  \field{journaltitle}{Physics of Fluids (Under Review)}
+  \verb{url}
+  \verb https://doi.org/10.1063/1.4998288
+  \endverb
+  \field{volume}{29}
+  \field{journaltitle}{Physics of Fluids}
   \field{year}{2017}
 \endentry
 
@@ -156,7 +165,7 @@
   \strng{namehash}{SAtDAK1}
   \strng{fullhash}{SAtDAK1}
   \field{labelyear}{2017}
-  \field{extrayear}{3}
+  \field{extrayear}{2}
   \field{title}{On the mutual interactions of liquid jets}
   \field{journaltitle}{Working Paper}
   \field{year}{2017}
@@ -221,35 +230,6 @@
   International ISHMT-ASTFE Heat and Mass Transfer Conference}
   \field{title}{Spatial preference of film growth in boiling and localized
   suppression of bubble release}
-  \field{year}{2017}
-\endentry
-
-\entry{anurag2017a}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Soni}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SAtDAK1}
-  \strng{fullhash}{SAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{2}
-  \field{booktitle}{Paper ID: IHMTC2017-13-0806, 24th National and 2nd
-  International ISHMT-ASTFE Heat and Mass Transfer Conference}
-  \field{title}{Fingering instability of liquid sheet formation by oblique
-  collision of jets}
   \field{year}{2017}
 \endentry
 
