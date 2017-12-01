@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  4 NOV 2017 00:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  25 NOV 2017 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1707,7 +1707,7 @@ Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 Here is how much of TeX's memory you used:
  33866 strings out of 493029
  616481 string characters out of 6136233
- 917194 words of memory out of 5000000
+ 917196 words of memory out of 5000000
  36719 multiletter control sequences out of 15000+600000
  95225 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
