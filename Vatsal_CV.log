@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  25 NOV 2017 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.17)  21 DEC 2017 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1686,17 +1686,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] [3
-
-]
+ [2] [3]
 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./Vatsal_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `Vatsal_CV.out' has not changed.
 (rerunfilecheck)             Checksum: DB9529CF6F59C3E7137E3C0A4C55B333;2638.
 Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
@@ -1707,7 +1705,7 @@ Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 Here is how much of TeX's memory you used:
  33866 strings out of 493029
  616481 string characters out of 6136233
- 917196 words of memory out of 5000000
+ 916196 words of memory out of 5000000
  36719 multiletter control sequences out of 15000+600000
  95225 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1721,7 +1719,7 @@ t/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Vatsal_CV.pdf (4 pages, 128141 bytes).
+Output written on Vatsal_CV.pdf (4 pages, 128224 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  165 compressed objects within 2 object streams
