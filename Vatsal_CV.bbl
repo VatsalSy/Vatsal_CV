@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,663 +16,743 @@
   {}
 \endgroup
 
-\entry{vatsal2017a}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{3}
-  \verb{doi}
-  \verb 10.1002/aic.15828
-  \endverb
-  \field{issn}{1547-5905}
-  \field{number}{11}
-  \field{pages}{5169\bibrangedash 5181}
-  \field{title}{On air entrainment in a water pool by impingement of a jet}
-  \verb{url}
-  \verb http://dx.doi.org/10.1002/aic.15828
-  \endverb
-  \field{volume}{63}
-  \field{journaltitle}{AIChE J.}
-  \field{year}{2017}
-\endentry
-
-\entry{vatsal2017c}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{1}
-  \verb{doi}
-  \verb 10.1063/1.4998288
-  \endverb
-  \field{number}{11}
-  \field{pages}{112101}
-  \field{title}{Formation of Liquid Chain by Collision of Two Laminar Jets}
-  \verb{url}
-  \verb https://doi.org/10.1063/1.4998288
-  \endverb
-  \field{volume}{29}
-  \field{journaltitle}{Physics of Fluids}
-  \field{year}{2017}
-\endentry
-
-\entry{vatsal2017b}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Springer}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{2}
-  \verb{doi}
-  \verb 10.1007/s12273-017-0411-y
-  \endverb
-  \field{title}{Numerical Assessment of Hazard in Compartmental Fire Having
-  Steady Heat Release Rate from the Source}
-  \verb{url}
-  \verb https://doi.org/10.1007/s12273-017-0411-y
-  \endverb
-  \field{journaltitle}{Building Simulation}
-  \field{year}{2017}
-\endentry
-
-\entry{vatsal2017v}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Jain}{J.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{JAtDAK1}
-  \strng{fullhash}{JAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{2}
-  \field{title}{Consequences of inclined and dual jet impingement in stagnant
+\datalist[entry]{none/global//global/global}
+  \entry{vatsal2017v}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JA}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{JAtDAK1}
+    \strng{fullhash}{JAtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{title}{Consequences of inclined and dual jet impingement in stagnant
   liquid and stratified layers}
-  \field{journaltitle}{AIChE J. (Under Review)}
-  \field{year}{2017}
-\endentry
+    \field{journaltitle}{Chemical Engineering Science (Under Review)}
+    \field{year}{2018}
+  \endentry
 
-\entry{vatsal2017e}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Soni}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{SAtDAK1}
-  \strng{fullhash}{SAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{2}
-  \field{title}{Formation of fluid structures due to jet-jet and jet-sheet
+  \entry{vatsal2017e}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Soni},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{SAtDAK1}
+    \strng{fullhash}{SAtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{title}{Formation of fluid structures due to jet-jet and jet-sheet
   interactions}
-  \field{journaltitle}{AIChE J. (Under Review)}
-  \field{year}{2017}
-\endentry
+    \field{journaltitle}{AIChE J. (Under Review)}
+    \field{year}{2018}
+  \endentry
 
-\entry{vatsal2017f}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Rathia}{R.}%
-     {S.~K.}{S.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Journal}
-  \strng{namehash}{RSKtDAK1}
-  \strng{fullhash}{RSKtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{2}
-  \field{title}{Investigation of the fire propagation across the patterned
+  \entry{vatsal2017f}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RSK}{%
+         family={Rathia},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{RSKtDAK1}
+    \strng{fullhash}{RSKtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{title}{Investigation of the fire propagation across the patterned
   obstructions with single and two point ignitions}
-  \field{journaltitle}{Working Paper}
-  \field{year}{2017}
-\endentry
+    \field{journaltitle}{(Under Review)}
+    \field{year}{2018}
+  \endentry
 
-\entry{vatsal2017Confa}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Darshan}{D.}%
-     {M.~B.}{M.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kumar}{K.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{tDMBKPDAK1}
-  \strng{fullhash}{tDMBKPDAK1}
-  \field{labelyear}{2017}
-  \field{booktitle}{Paper ID: IHMTC-2017-09-1283, 24th National and 2nd
+  \entry{vatsal2017a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{3}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1002/aic.15828
+    \endverb
+    \field{issn}{1547-5905}
+    \field{number}{11}
+    \field{pages}{5169\bibrangedash 5181}
+    \field{title}{On air entrainment in a water pool by impingement of a jet}
+    \verb{url}
+    \verb http://dx.doi.org/10.1002/aic.15828
+    \endverb
+    \field{volume}{63}
+    \field{journaltitle}{AIChE J.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{vatsal2017c}{article}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{1}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1063/1.4998288
+    \endverb
+    \field{number}{11}
+    \field{pages}{112101}
+    \field{title}{Formation of Liquid Chain by Collision of Two Laminar Jets}
+    \verb{url}
+    \verb https://doi.org/10.1063/1.4998288
+    \endverb
+    \field{volume}{29}
+    \field{journaltitle}{Physics of Fluids}
+    \field{year}{2017}
+  \endentry
+
+  \entry{vatsal2017b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1007/s12273-017-0411-y
+    \endverb
+    \field{title}{Numerical Assessment of Hazard in Compartmental Fire Having
+  Steady Heat Release Rate from the Source}
+    \verb{url}
+    \verb https://doi.org/10.1007/s12273-017-0411-y
+    \endverb
+    \field{journaltitle}{Building Simulation}
+    \field{year}{2017}
+  \endentry
+
+  \entry{vatsal2017Confa}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DMB}{%
+         family={Darshan},
+         familyi={D\bibinitperiod},
+         given={M.\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tDMBKPDAK1}
+    \strng{fullhash}{tDMBKPDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: IHMTC-2017-09-1283, 24th National and 2nd
   International ISHMT-ASTFE Heat and Mass Transfer Conference}
-  \field{title}{Spatial preference of film growth in boiling and localized
+    \field{title}{Spatial preference of film growth in boiling and localized
   suppression of bubble release}
-  \field{year}{2017}
-\endentry
+    \field{year}{2017}
+  \endentry
 
-\entry{anurag2017b}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Soni}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SAtDAK1}
-  \strng{fullhash}{SAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{1}
-  \field{booktitle}{Paper ID: 64, 44th National Conference on Fluid Mechanics
+  \entry{anurag2017b}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Soni},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAtDAK1}
+    \strng{fullhash}{SAtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 64, 44th National Conference on Fluid Mechanics
   and Fluid Power}
-  \field{title}{Consequences of interaction between asymmetric liquid jets}
-  \field{year}{2017}
-\endentry
+    \field{title}{Consequences of interaction between asymmetric liquid jets}
+    \field{year}{2017}
+  \endentry
 
-\entry{abhinav2017a}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Jain}{J.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{JAtDAK1}
-  \strng{fullhash}{JAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{1}
-  \field{booktitle}{Paper ID: IHMTC2017-13-0828; 24th National and 2nd
+  \entry{abhinav2017a}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=JA}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JAtDAK1}
+    \strng{fullhash}{JAtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{1}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: IHMTC2017-13-0828; 24th National and 2nd
   International ISHMT-ASTFE Heat and Mass Transfer Conference}
-  \field{title}{Asymmetry in air entrainment inside liquid pool due to
+    \field{title}{Asymmetry in air entrainment inside liquid pool due to
   impingement of an inclined jet}
-  \field{year}{2017}
-\endentry
+    \field{year}{2017}
+  \endentry
 
-\entry{abhinav2017b}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Jain}{J.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{JAtDAK1}
-  \strng{fullhash}{JAtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{3}
-  \field{booktitle}{Paper ID: 68, 44th National Conference on Fluid Mechanics
+  \entry{abhinav2017b}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=JA}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JAtDAK1}
+    \strng{fullhash}{JAtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 68, 44th National Conference on Fluid Mechanics
   and Fluid Power}
-  \field{title}{Interaction of bubble clusters formed due to adjacent
+    \field{title}{Interaction of bubble clusters formed due to adjacent
   impingement of liquid jets in a pool}
-  \field{year}{2017}
-\endentry
+    \field{year}{2017}
+  \endentry
 
-\entry{sandeep2017a}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Rathia}{R.}%
-     {S.~K.}{S.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RSKtDAK1}
-  \strng{fullhash}{RSKtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{3}
-  \field{booktitle}{Paper ID: IHMTC2017-04-0814, 24th National and 2nd
+  \entry{sandeep2017a}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RSK}{%
+         family={Rathia},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSKtDAK1}
+    \strng{fullhash}{RSKtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: IHMTC2017-04-0814, 24th National and 2nd
   International ISHMT-ASTFE Heat and Mass Transfer Conference}
-  \field{title}{Study of fire propagation in the presence of patterned
+    \field{title}{Study of fire propagation in the presence of patterned
   flammable obstructions}
-  \field{year}{2017}
-\endentry
+    \field{year}{2017}
+  \endentry
 
-\entry{sandeep2017b}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Rathia}{R.}%
-     {S.~K.}{S.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RSKtDAK1}
-  \strng{fullhash}{RSKtDAK1}
-  \field{labelyear}{2017}
-  \field{extrayear}{1}
-  \field{booktitle}{Paper ID: 65; 44th National Conference on Fluid Mechanics
+  \entry{sandeep2017b}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RSK}{%
+         family={Rathia},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSKtDAK1}
+    \strng{fullhash}{RSKtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{extradate}{1}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 65; 44th National Conference on Fluid Mechanics
   and Fluid Power}
-  \field{title}{Extent of fire spread during interaction of two ignition
+    \field{title}{Extent of fire spread during interaction of two ignition
   points}
-  \field{year}{2017}
-\endentry
+    \field{year}{2017}
+  \endentry
 
-\entry{sanjay2016gas}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2016}
-  \field{extrayear}{1}
-  \field{booktitle}{Reference \#50, 9th International Conference on Multiphase
-  Flow}
-  \field{title}{On the gas-liquid entrainment by impingement of liquid jet onto
-  a pool}
-  \field{year}{2016}
-\endentry
+  \entry{sanjay2016gas}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{extradate}{1}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Reference \#50, 9th International Conference on
+  Multiphase Flow}
+    \field{title}{On the gas-liquid entrainment by impingement of liquid jet
+  onto a pool}
+    \field{year}{2016}
+  \endentry
 
-\entry{agarwal2016investigation}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Agarwal}{A.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sarda}{S.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kaushik}{K.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{2}{%
-    {World Academy of Science, Engineering}%
-    {Technology}%
-  }
-  \strng{namehash}{AASMKJtDAK1}
-  \strng{fullhash}{AASMKJtDAK1}
-  \field{labelyear}{2016}
-  \field{number}{9}
-  \field{pages}{1433\bibrangedash 1441}
-  \field{title}{Investigation of flame and soot Propagation in non-air
+  \entry{agarwal2016investigation}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sarda},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaushik},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {World Academy of Science, Engineering}%
+      {Technology}%
+    }
+    \strng{namehash}{AASMKJtDAK1}
+    \strng{fullhash}{AASMKJtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{number}{9}
+    \field{pages}{1433\bibrangedash 1441}
+    \field{title}{Investigation of flame and soot Propagation in non-air
   conditioned railway locomotives}
-  \field{volume}{10}
-  \field{journaltitle}{International Journal of Computer, Electrical,
+    \field{volume}{10}
+    \field{journaltitle}{International Journal of Computer, Electrical,
   Automation, Control and Information Engineering}
-  \field{year}{2016}
-\endentry
+    \field{year}{2016}
+  \endentry
 
-\entry{kaushik2016study}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Kaushik}{K.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Agarwal}{A.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sarda}{S.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{2}{%
-    {World Academy of Science, Engineering}%
-    {Technology}%
-  }
-  \strng{namehash}{KJAASMtDAK1}
-  \strng{fullhash}{KJAASMtDAK1}
-  \field{labelyear}{2016}
-  \field{number}{9}
-  \field{pages}{1617\bibrangedash 1622}
-  \field{title}{Study of fire propagation and soot flow in a pantry car of
+  \entry{kaushik2016study}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KJ}{%
+         family={Kaushik},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sarda},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {World Academy of Science, Engineering}%
+      {Technology}%
+    }
+    \strng{namehash}{KJAASMtDAK1}
+    \strng{fullhash}{KJAASMtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{number}{9}
+    \field{pages}{1617\bibrangedash 1622}
+    \field{title}{Study of fire propagation and soot flow in a pantry car of
   railway locomotive}
-  \field{volume}{10}
-  \field{journaltitle}{International Journal of Mechanical, Aerospace,
+    \field{volume}{10}
+    \field{journaltitle}{International Journal of Mechanical, Aerospace,
   Industrial, Mechatronic and Manufacturing Engineering}
-  \field{year}{2016}
-\endentry
+    \field{year}{2016}
+  \endentry
 
-\entry{sarda2016numerical}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Sarda}{S.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Agarwal}{A.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kaushik}{K.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{2}{%
-    {World Academy of Science, Engineering}%
-    {Technology}%
-  }
-  \strng{namehash}{SMAAKJtDAK1}
-  \strng{fullhash}{SMAAKJtDAK1}
-  \field{labelyear}{2016}
-  \field{number}{9}
-  \field{pages}{1520\bibrangedash 1527}
-  \field{title}{Numerical simulations of fire in typical air conditioned
+  \entry{sarda2016numerical}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SM}{%
+         family={Sarda},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaushik},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {World Academy of Science, Engineering}%
+      {Technology}%
+    }
+    \strng{namehash}{SMAAKJtDAK1}
+    \strng{fullhash}{SMAAKJtDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{number}{9}
+    \field{pages}{1520\bibrangedash 1527}
+    \field{title}{Numerical simulations of fire in typical air conditioned
   railway coach}
-  \field{volume}{10}
-  \field{journaltitle}{International Journal of Computer, Electrical,
+    \field{volume}{10}
+    \field{journaltitle}{International Journal of Computer, Electrical,
   Automation, Control and Information Engineering}
-  \field{year}{2016}
-\endentry
+    \field{year}{2016}
+  \endentry
 
-\entry{sanjay2016numerical}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2016}
-  \field{extrayear}{2}
-  \field{booktitle}{Paper ID: 217, 6th International and 43rd National
+  \entry{sanjay2016numerical}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 217, 6th International and 43rd National
   Conference on Fluid Mechanics and Fluid Power}
-  \field{title}{On the numerical simulations of kitchen sink vortex}
-  \field{year}{2016}
-\endentry
+    \field{title}{On the numerical simulations of kitchen sink vortex}
+    \field{year}{2016}
+  \endentry
 
-\entry{datta2016investigation}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Datta}{D.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kumar}{K.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{DStKPDAK1}
-  \strng{fullhash}{DStKPDAK1}
-  \field{labelyear}{2016}
-  \field{booktitle}{Paper ID: 218, 6th International and 43rd National
+  \entry{datta2016investigation}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=DS}{%
+         family={Datta},
+         familyi={D\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DStKPDAK1}
+    \strng{fullhash}{DStKPDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 218, 6th International and 43rd National
   Conference on Fluid Mechanics and Fluid Power}
-  \field{title}{Investigation of jet atomization - a multi-scale approach}
-  \field{year}{2016}
-\endentry
+    \field{title}{Investigation of jet atomization - a multi-scale approach}
+    \field{year}{2016}
+  \endentry
 
-\entry{aggarwal2016generation}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Aggarwal}{A.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kumar}{K.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{AAtKPDAK1}
-  \strng{fullhash}{AAtKPDAK1}
-  \field{labelyear}{2016}
-  \field{booktitle}{Paper ID: 267, Proceedings of CHEMCON}
-  \field{title}{Generation of a liquid sheet by an oblique impingement of
+  \entry{aggarwal2016generation}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=AA}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AAtKPDAK1}
+    \strng{fullhash}{AAtKPDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Paper ID: 267, Proceedings of CHEMCON}
+    \field{title}{Generation of a liquid sheet by an oblique impingement of
   interacting jets: a numerical investigation}
-  \field{year}{2016}
-\endentry
+    \field{year}{2016}
+  \endentry
 
-\entry{sanjay2015bubble}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2015}
-  \field{extrayear}{1}
-  \field{booktitle}{ID FM-052, Proceedings of CHEMCON}
-  \field{title}{Bubble life cycle during entrainment by Jet impingment in
+  \entry{sanjay2015bubble}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{1}
+    \field{labeldatesource}{year}
+    \field{booktitle}{ID FM-052, Proceedings of CHEMCON}
+    \field{title}{Bubble life cycle during entrainment by Jet impingment in
   liquid pool}
-  \field{year}{2015}
-\endentry
+    \field{year}{2015}
+  \endentry
 
-\entry{sanjay2015building}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {\textbf{Sanjay, V}}{t.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Das}{D.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{tDAK1}
-  \strng{fullhash}{tDAK1}
-  \field{labelyear}{2015}
-  \field{extrayear}{2}
-  \field{booktitle}{Proceedings of 14th International Conference of the
+  \entry{sanjay2015building}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=DAK}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tDAK1}
+    \strng{fullhash}{tDAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{2}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Proceedings of 14th International Conference of the
   International Building Performance Simulation Association}
-  \field{pages}{897\bibrangedash 904}
-  \field{title}{Building fire safety: numerical simulation and evacuation
+    \field{pages}{897\bibrangedash 904}
+    \field{title}{Building fire safety: numerical simulation and evacuation
   planning}
-  \field{year}{2015}
-\endentry
-
-\lossort
-\endlossort
-
+    \field{year}{2015}
+  \endentry
+\enddatalist
 \endinput

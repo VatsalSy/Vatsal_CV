@@ -1,9 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Vatsal_CV.aux
 The style file: biblatex.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,55 +14,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Vatsal_CV-blx.bib
-Database file #2: publications/journal2017.bib
+Database file #2: publications/journal2018.bib
+Database file #3: publications/journal2017.bib
 Warning--I'm ignoring vatsal2017a's extra "keywords" field
 --line 12 of file publications/journal2017.bib
-Database file #3: publications/conference2017.bib
-Database file #4: publications/conference2016.bib
-Database file #5: publications/conference2015.bib
-Biblatex version: 3.3
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #4: publications/conference2017.bib
+Database file #5: publications/conference2016.bib
+Database file #6: publications/conference2015.bib
+Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 22 entries,
-            6047 wiz_defined-function locations,
-            1226 strings with 12335 characters,
-and the built_in function-call counts, 75264 in all, are:
-= -- 2758
-> -- 3130
+            6268 wiz_defined-function locations,
+            1278 strings with 12890 characters,
+and the built_in function-call counts, 132044 in all, are:
+= -- 8896
+> -- 3124
 < -- 671
-+ -- 1130
-- -- 1292
-* -- 6204
-:= -- 4928
++ -- 3353
+- -- 1290
+* -- 10257
+:= -- 13448
 add.period$ -- 0
 call.type$ -- 22
 change.case$ -- 321
-chr.to.int$ -- 36
+chr.to.int$ -- 32
 cite$ -- 42
-duplicate$ -- 8022
-empty$ -- 7372
-format.name$ -- 1927
-if$ -- 17168
+duplicate$ -- 13323
+empty$ -- 11959
+format.name$ -- 1841
+if$ -- 27514
 int.to.chr$ -- 0
-int.to.str$ -- 77
+int.to.str$ -- 74
 missing$ -- 0
-newline$ -- 649
+newline$ -- 729
 num.names$ -- 1025
-pop$ -- 6923
+pop$ -- 7363
 preamble$ -- 1
-purify$ -- 451
+purify$ -- 516
 quote$ -- 0
-skip$ -- 4590
+skip$ -- 4286
 stack$ -- 0
-substring$ -- 1388
-swap$ -- 2696
-text.length$ -- 602
+substring$ -- 15127
+swap$ -- 3312
+text.length$ -- 600
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 824
+type$ -- 736
 warning$ -- 0
-while$ -- 388
+while$ -- 1473
 width$ -- 0
-write$ -- 626
+write$ -- 708
 (There was 1 warning)

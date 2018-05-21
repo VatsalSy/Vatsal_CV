@@ -51,8 +51,10 @@
       <file>Vatsal_CV.bbl</file>
     </requires>
     <requires type="static">
+      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>biblatex_legacy.def</file>
+      <file>blx-bibtex.def</file>
+      <file>biblatex.def</file>
       <file>blx-natbib.def</file>
       <file>authoryear.bbx</file>
       <file>standard.bbx</file>
@@ -82,6 +84,7 @@
       <file>Vatsal_CV-blx.bib</file>
     </requires>
     <requires type="editable">
+      <file>publications/journal2018.bib</file>
       <file>publications/journal2017.bib</file>
       <file>publications/conference2017.bib</file>
       <file>publications/conference2016.bib</file>
