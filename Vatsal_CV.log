@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.18)  31 MAY 2018 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.18)  9 JUN 2018 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1673,7 +1673,7 @@ Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 Here is how much of TeX's memory you used:
  36740 strings out of 492982
  685110 string characters out of 6134896
- 938190 words of memory out of 5000000
+ 938192 words of memory out of 5000000
  39697 multiletter control sequences out of 15000+600000
  619461 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1687,7 +1687,7 @@ lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Vatsal_CV.pdf (4 pages, 317421 bytes).
+Output written on Vatsal_CV.pdf (4 pages, 317422 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams
