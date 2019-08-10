@@ -56,8 +56,8 @@
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
-      <file>numeric.bbx</file>
       <file>standard.bbx</file>
+      <file>numeric.bbx</file>
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
@@ -86,7 +86,6 @@
     <requires type="editable">
       <file>publications/journal2018.bib</file>
       <file>publications/journal2017.bib</file>
-      <file>publications/conference2017.bib</file>
       <file>publications/conference2016.bib</file>
       <file>publications/conference2015.bib</file>
     </requires>
