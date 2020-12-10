@@ -84,8 +84,13 @@
       <file>Vatsal_CV-blx.bib</file>
     </requires>
     <requires type="editable">
+      <file>publications/journal2021.bib</file>
+      <file>publications/journal2020.bib</file>
+      <file>publications/journal2019.bib</file>
       <file>publications/journal2018.bib</file>
       <file>publications/journal2017.bib</file>
+      <file>publications/conference2020.bib</file>
+      <file>publications/conference2019.bib</file>
       <file>publications/conference2016.bib</file>
       <file>publications/conference2015.bib</file>
     </requires>

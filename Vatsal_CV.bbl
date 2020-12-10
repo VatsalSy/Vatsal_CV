@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -17,7 +17,178 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
-  \entry{vatsal2018b}{article}{}
+  \entry{vatsal2021a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jalaal},
+         familyi={J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{JournalReview}
+    \strng{namehash}{tLDJM1}
+    \strng{fullhash}{tLDJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Bursting Bubble in a Viscoplastic medium}
+    \field{journaltitle}{Journal of Fluid Mechanics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{ramirez2020lifting}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RSO}{%
+         family={Ram{\'\i}rez-Soto},
+         familyi={R\bibinithyphendelim S\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PJT}{%
+         family={Pham},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vollmer},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \keyw{Journal}
+    \strng{namehash}{RSOtLDPJTVD1}
+    \strng{fullhash}{RSOtLDPJTVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{34}
+    \field{pages}{eaba4330}
+    \field{title}{Lifting a sessile oil drop from a superamphiphobic surface
+  with an impacting one}
+    \field{volume}{6}
+    \field{journaltitle}{Science advances}
+    \field{year}{2020}
+  \endentry
+
+  \entry{sanjay2020does}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chantelot},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tCPLD1}
+    \strng{fullhash}{tCPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{When does a viscous drop stop bouncing?}
+    \field{journaltitle}{APS-DFD (Virtual)}
+    \field{year}{2020}
+  \endentry
+
+  \entry{sanjay2020Rheology}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jalaal},
+         familyi={J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tJMLD1}
+    \strng{fullhash}{tJMLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Bursting Bubble in a Viscoplastic medium}
+    \field{journaltitle}{18th International Congress on Rheology (Virtual)}
+    \field{year}{2020}
+  \endentry
+
+  \entry{sanjay2020MPC}{article}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tLD1}
+    \strng{fullhash}{tLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Jumping \& Bouncing Drops \& Bubbles}
+    \field{journaltitle}{Max Planck meeting, Mainz, Germany}
+    \field{year}{2020}
+  \endentry
+
+  \entry{jain2019consequences}{article}{}
     \name{author}{3}{}{%
       {{hash=JA}{%
          family={Jain},
@@ -36,17 +207,219 @@
          giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
     }
-    \keyw{JournalReview}
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \keyw{Journal}
     \strng{namehash}{JAtDAK1}
     \strng{fullhash}{JAtDAK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{372\bibrangedash 384}
     \field{title}{Consequences of inclined and dual jet impingement in stagnant
   liquid and stratified layers}
-    \field{journaltitle}{Chemical Engineering Science}
-    \field{year}{2018}
+    \field{volume}{65}
+    \field{journaltitle}{AIChE journal}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sanjay2019droplet}{article}{}
+    \name{author}{5}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=JU}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jalaal},
+         familyi={J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=vdMD}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Meer},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tJUJMMDvdLD1}
+    \strng{fullhash}{tJUJMMDvdLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{pages}{B22\bibrangedash 001}
+    \field{title}{Droplet Encapsulation}
+    \field{journaltitle}{APS-DFD, Seattle, US}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sanjay2019VPBasilisk}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jalaal},
+         familyi={J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tJMLD1}
+    \strng{fullhash}{tJMLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Bursting Bubbles: from Champagne to Mudpots}
+    \field{journaltitle}{Basilisk/Gerris Users' meeting, Paris, France}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sanjay2019VPflow}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jalaal},
+         familyi={J\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tJMLD1}
+    \strng{fullhash}{tJMLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Bursting Bubbles: from Champagne to Mudpots}
+    \field{journaltitle}{VPF8 Viscoplastic Fluids: from Theory to Application,
+  Cambridge, UK}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sanjay2019DropOnDrop}{article}{}
+    \name{author}{5}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=RSO}{%
+         family={Ram{\'\i}rez-Soto},
+         familyi={R\bibinithyphendelim S\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PJT}{%
+         family={Pham},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vollmer},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tRSOLDPJTVD1}
+    \strng{fullhash}{tRSOLDPJTVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Impinging drop lifts a sessile drop}
+    \field{journaltitle}{Burgers Symposium, Lunteren, the Netherlands}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sanjay2019DropOnDropDenmark}{article}{}
+    \name{author}{5}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=RSO}{%
+         family={Ram{\'\i}rez-Soto},
+         familyi={R\bibinithyphendelim S\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PJT}{%
+         family={Pham},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vollmer},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tRSOLDPJTVD1}
+    \strng{fullhash}{tRSOLDPJTVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Impinging drop lifts a sessile drop}
+    \field{journaltitle}{9th 4U Summer School Complex Motion in Fluids,
+  Gilleleje, Denmark}
+    \field{year}{2019}
   \endentry
 
   \entry{vatsal2018d}{article}{}
