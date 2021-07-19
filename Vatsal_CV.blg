@@ -34,13 +34,13 @@ Database file #7: publications/conference2020.bib
 Database file #8: publications/conference2019.bib
 Database file #9: publications/conference2016.bib
 Database file #10: publications/conference2015.bib
-Biblatex version: 3.13
+Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 21 entries,
-            6365 wiz_defined-function locations,
-            1311 strings with 12588 characters,
-and the built_in function-call counts, 161511 in all, are:
+            6393 wiz_defined-function locations,
+            1319 strings with 12658 characters,
+and the built_in function-call counts, 161284 in all, are:
 = -- 9710
 > -- 7723
 < -- 899
@@ -56,17 +56,17 @@ cite$ -- 40
 duplicate$ -- 14021
 empty$ -- 12447
 format.name$ -- 1871
-if$ -- 29925
+if$ -- 29698
 int.to.chr$ -- 0
 int.to.str$ -- 78
 missing$ -- 0
 newline$ -- 713
 num.names$ -- 956
-pop$ -- 7208
+pop$ -- 7207
 preamble$ -- 1
 purify$ -- 461
 quote$ -- 0
-skip$ -- 4458
+skip$ -- 4459
 stack$ -- 0
 substring$ -- 17692
 swap$ -- 3356

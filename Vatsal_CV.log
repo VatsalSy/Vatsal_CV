@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.28)  15 FEB 2021 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.15)  18 JUL 2021 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,9 +241,18 @@ on-lists.tex))
 (/usr/local/texlive/2020basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
 x.def
 \pgfutil@abb=\box48
- (/usr/local/texlive/2020basic/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
+ (/usr/local/texlive/2020basic/texmf-dist/tex/latex/everyshi/everyshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/everyshi/everyshi-2001-05-15
+.sty
+
+LaTeX Warning: You have requested package `everyshi',
+               but the package provides `everyshi-2001-05-15'.
+
+Package: everyshi-2001-05-15 2020/11/18 v4.00 EveryShipout Package (fallback me
+chanism)
+)))
 (/usr/local/texlive/2020basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
 tex (/usr/local/texlive/2020basic/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
@@ -591,12 +600,8 @@ Package: arydshln 2019/02/21 v1.76
 \listitemsymbolwidth=\skip91
 LaTeX Font Info:    Trying to load font information for U+mvs on input line 48.
 
-LaTeX Font Info:    No file Umvs.fd. on input line 48.
 
-
-LaTeX Font Warning: Font shape `U/mvs/m/n' undefined
-(Font)              using `U/cmr/m/n' instead on input line 48.
-
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/marvosym/umvs.fd)
 \listitemcolumnwidth=\skip92
 \listdoubleitemcolumnwidth=\skip93
 \baseletterheight=\skip94
@@ -648,9 +653,9 @@ File: babel.def 2020/03/22 3.42 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language7) on input line 105.
+(babel)             (\language21) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language7) on input line 108.
+(babel)             (\language21) on input line 108.
 ))
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
@@ -734,7 +739,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip104
 \blx@bcfin=\read4
 \blx@bcfout=\write4
-\blx@langwohyphens=\language22
+\blx@langwohyphens=\language86
 \c@mincomprange=\count332
 \c@maxcomprange=\count333
 \c@mincompwidth=\count334
@@ -1225,7 +1230,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-Missing character: There is no Í in font cmr12!
 \makecvheadpicturebox=\box64
 \makecvheaddetailswidth=\skip120
 \makecvheadpicturewidth=\skip121
@@ -1292,36 +1296,32 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `Vatsal_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 42613630E10DAC3B0E51E10B66E07017;2044.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 \openout1 = `Vatsal_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30425 strings out of 482056
- 570807 string characters out of 5937675
- 1055549 words of memory out of 5000000
- 45482 multiletter control sequences out of 15000+600000
- 616931 words of font info for 104 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
+ 30429 strings out of 480608
+ 571198 string characters out of 5901175
+ 1059402 words of memory out of 5000000
+ 45692 multiletter control sequences out of 15000+600000
+ 617896 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
  76i,20n,68p,1868b,1677s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/l
-ocal/texlive/2020basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/loc
-al/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/te
-xlive/2020basic/texmf-dist/fonts/type1/public/lm/lmbxo10.pfb></usr/local/texliv
-e/2020basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/20
-20basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020basi
-c/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020basic/texm
-f-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020basic/texmf-dist
-/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2020basic/texmf-dist/font
-s/type1/public/lm/lmro10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/typ
-e1/public/lm/lmro17.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/pu
-blic/lm/lmtt10.pfb>
-Output written on Vatsal_CV.pdf (4 pages, 317319 bytes).
+ocal/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/
+texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
+ve/2020basic/texmf-dist/fonts/type1/public/lm/lmbxo10.pfb></usr/local/texlive/2
+020basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020b
+asic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020basic/t
+exmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020basic/texmf-d
+ist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020basic/texmf-dist/fo
+nts/type1/public/lm/lmri10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/t
+ype1/public/lm/lmro10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/
+public/lm/lmro17.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/mar
+vosym/marvosym.pfb>
+Output written on Vatsal_CV.pdf (4 pages, 323587 bytes).
 PDF statistics:
  183 PDF objects out of 1000 (max. 8388607)
  163 compressed objects within 2 object streams
