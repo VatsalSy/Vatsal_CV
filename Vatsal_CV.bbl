@@ -17,6 +17,99 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
+  \entry{vatsal2021c}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LS}{%
+         family={Lakshman},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chantelot},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{JournalReview}
+    \strng{namehash}{LStCPLD1}
+    \strng{fullhash}{LStCPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Substrate dependent drop imapacts}
+    \field{journaltitle}{Journal of Fluid Mechanics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{vatsal2021d}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chantelot},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{JournalReview}
+    \strng{namehash}{tCPLD1}
+    \strng{fullhash}{tCPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{When does a viscous drop stop bouncing?}
+    \field{journaltitle}{Journal of Fluid Mechanics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{vatsal2021e}{article}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{JournalReview}
+    \strng{namehash}{tLD1}
+    \strng{fullhash}{tLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Action reaction forces in drop impact}
+    \field{journaltitle}{Journal of Fluid Mechanics}
+    \field{year}{2021}
+  \endentry
+
   \entry{vatsal2021a}{article}{}
     \name{author}{3}{}{%
       {{hash=t}{%
@@ -36,14 +129,59 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \keyw{JournalReview}
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \keyw{Journal}
     \strng{namehash}{tLDJM1}
     \strng{fullhash}{tLDJM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.1017/jfm.2021.489
+    \endverb
+    \field{pages}{A2}
     \field{title}{Bursting Bubble in a Viscoplastic medium}
+    \field{volume}{922}
+    \field{journaltitle}{Journal of Fluid Mechanics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{vatsal2021b}{article}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=SU}{%
+         family={Sen},
+         familyi={S\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kant},
+         familyi={K\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{JournalReview}
+    \strng{namehash}{tSUKPLD1}
+    \strng{fullhash}{tSUKPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{Taylor Culick retractions at interfaces}
     \field{journaltitle}{Journal of Fluid Mechanics}
     \field{year}{2021}
   \endentry
@@ -420,38 +558,6 @@
     \field{journaltitle}{9th 4U Summer School Complex Motion in Fluids,
   Gilleleje, Denmark}
     \field{year}{2019}
-  \endentry
-
-  \entry{vatsal2018d}{article}{}
-    \name{author}{3}{}{%
-      {{hash=RSK}{%
-         family={Rathia},
-         familyi={R\bibinitperiod},
-         given={S.\bibnamedelima K.},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=t}{%
-         family={\textbf{Sanjay, V}},
-         familyi={t\bibinitperiod},
-      }}%
-      {{hash=DAK}{%
-         family={Das},
-         familyi={D\bibinitperiod},
-         given={A.\bibnamedelima K.},
-         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \keyw{JournalReview}
-    \strng{namehash}{RSKtDAK1}
-    \strng{fullhash}{RSKtDAK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \field{title}{Investigation of the fire propagation across the patterned
-  obstructions with single and two point ignitions}
-    \field{journaltitle}{Fire Technology Journal}
-    \field{year}{2018}
   \endentry
 
   \entry{vatsal2018a}{article}{}

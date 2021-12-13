@@ -19,6 +19,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Vatsal_CV-blx.bib
 Database file #2: publications/journal2021.bib
+Warning--I'm ignoring vatsal2021a's extra "title" field
+--line 5 of file publications/journal2021.bib
 Database file #3: publications/journal2020.bib
 Database file #4: publications/journal2019.bib
 Database file #5: publications/journal2018.bib
@@ -37,45 +39,45 @@ Database file #10: publications/conference2015.bib
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 21 entries,
+You've used 24 entries,
             6393 wiz_defined-function locations,
-            1319 strings with 12658 characters,
-and the built_in function-call counts, 161284 in all, are:
-= -- 9710
-> -- 7723
-< -- 899
-+ -- 7938
-- -- 5776
-* -- 11394
-:= -- 20010
+            1329 strings with 12834 characters,
+and the built_in function-call counts, 182931 in all, are:
+= -- 10862
+> -- 8947
+< -- 1047
++ -- 9184
+- -- 6684
+* -- 12755
+:= -- 22699
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 270
-chr.to.int$ -- 278
-cite$ -- 40
-duplicate$ -- 14021
-empty$ -- 12447
-format.name$ -- 1871
-if$ -- 29698
+call.type$ -- 24
+change.case$ -- 325
+chr.to.int$ -- 314
+cite$ -- 46
+duplicate$ -- 16217
+empty$ -- 13969
+format.name$ -- 2168
+if$ -- 33571
 int.to.chr$ -- 0
-int.to.str$ -- 78
+int.to.str$ -- 92
 missing$ -- 0
-newline$ -- 713
-num.names$ -- 956
-pop$ -- 7207
+newline$ -- 820
+num.names$ -- 1120
+pop$ -- 8288
 preamble$ -- 1
-purify$ -- 461
+purify$ -- 546
 quote$ -- 0
-skip$ -- 4459
+skip$ -- 5179
 stack$ -- 0
-substring$ -- 17692
-swap$ -- 3356
-text.length$ -- 784
-text.prefix$ -- 20
+substring$ -- 19297
+swap$ -- 3877
+text.length$ -- 898
+text.prefix$ -- 23
 top$ -- 1
-type$ -- 702
+type$ -- 804
 warning$ -- 0
-while$ -- 2065
+while$ -- 2376
 width$ -- 0
-write$ -- 693
+write$ -- 797
 (There was 1 error message)
