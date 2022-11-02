@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Vatsal_CV.aux
 The style file: biblatex.bst
@@ -36,48 +36,48 @@ Database file #7: publications/conference2020.bib
 Database file #8: publications/conference2019.bib
 Database file #9: publications/conference2016.bib
 Database file #10: publications/conference2015.bib
-Biblatex version: 3.16
+Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 24 entries,
-            6393 wiz_defined-function locations,
-            1329 strings with 12834 characters,
-and the built_in function-call counts, 182931 in all, are:
-= -- 10862
+            6399 wiz_defined-function locations,
+            1331 strings with 12852 characters,
+and the built_in function-call counts, 224493 in all, are:
+= -- 15760
 > -- 8947
 < -- 1047
-+ -- 9184
++ -- 11200
 - -- 6684
-* -- 12755
-:= -- 22699
+* -- 15385
+:= -- 28605
 add.period$ -- 0
 call.type$ -- 24
 change.case$ -- 325
 chr.to.int$ -- 314
 cite$ -- 46
-duplicate$ -- 16217
-empty$ -- 13969
+duplicate$ -- 20753
+empty$ -- 16851
 format.name$ -- 2168
-if$ -- 33571
+if$ -- 41351
 int.to.chr$ -- 0
 int.to.str$ -- 92
 missing$ -- 0
 newline$ -- 820
 num.names$ -- 1120
-pop$ -- 8288
+pop$ -- 8540
 preamble$ -- 1
 purify$ -- 546
 quote$ -- 0
 skip$ -- 5179
 stack$ -- 0
-substring$ -- 19297
+substring$ -- 29455
 swap$ -- 3877
 text.length$ -- 898
 text.prefix$ -- 23
 top$ -- 1
 type$ -- 804
 warning$ -- 0
-while$ -- 2376
+while$ -- 2880
 width$ -- 0
 write$ -- 797
 (There was 1 error message)
