@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  7 SEP 2022 08:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  7 NOV 2022 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,8 +981,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip119
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 58.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
+Package hyperref Info: Option `breaklinks' set `true' on input line 64.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 64.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -993,24 +993,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./Vatsal_CV.aux)
 \openout1 = `Vatsal_CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1034,18 +1034,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 58.
-Package microtype Info: Applying patch `item' on input line 58.
-Package microtype Info: Applying patch `toc' on input line 58.
-Package microtype Info: Applying patch `eqnum' on input line 58.
-Package microtype Info: Applying patch `footnote' on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 64.
+Package microtype Info: Applying patch `item' on input line 64.
+Package microtype Info: Applying patch `toc' on input line 64.
+Package microtype Info: Applying patch `eqnum' on input line 64.
+Package microtype Info: Applying patch `footnote' on input line 64.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 58.
+LaTeX Info: Redefining \showhyphens on input line 64.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1105,12 +1105,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Vatsal_CV.bbl' found.
 
 (./Vatsal_CV.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 58.
-Package hyperref Info: Link coloring ON on input line 58.
+(lastpage)             ! on input line 64.
+Package hyperref Info: Link coloring ON on input line 64.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1121,9 +1121,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count446
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
  (./Vatsal_CV.out) (./Vatsal_CV.out)
 \@outlinefile=\write5
 \openout5 = `Vatsal_CV.out'.
@@ -1131,15 +1131,15 @@ LaTeX Info: Redefining \nameref on input line 58.
 
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 64.
+(hyperref)                setting the option has no effect on input line 70.
 
 \makecvheaddetailsbox=\box68
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 66.
+(Font)              <5> on input line 72.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 66.
+nput line 72.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
@@ -1150,36 +1150,36 @@ nput line 66.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <34> not available
-(Font)              size <24.88> substituted on input line 66.
+(Font)              size <24.88> substituted on input line 72.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 66.
+(Font)              <10.95> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <8> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 66.
+(Font)              <6> on input line 72.
 
-Overfull \hbox (0.86702pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.86702pt too wide) in paragraph at lines 80--80
 []| [] 
  []
 
 
-Overfull \hbox (0.86702pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.86702pt too wide) in paragraph at lines 80--80
 []| [] 
  []
 
 
-Overfull \hbox (0.86702pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.86702pt too wide) in paragraph at lines 80--80
 []| [] 
  []
 
 
-Overfull \hbox (0.86702pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.86702pt too wide) in paragraph at lines 80--80
 []| [] 
  []
 
 
-Overfull \hbox (0.86702pt too wide) in paragraph at lines 77--77
+Overfull \hbox (0.86702pt too wide) in paragraph at lines 83--83
 []| [] 
  []
 
@@ -1203,17 +1203,17 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
 Package rerunfilecheck Info: File `Vatsal_CV.out' has not changed.
-(rerunfilecheck)             Checksum: 42613630E10DAC3B0E51E10B66E07017;2044.
+(rerunfilecheck)             Checksum: 2ECD2DC96D3C97D0208E6F567E8690CF;2057.
 Package logreq Info: Writing requests to 'Vatsal_CV.run.xml'.
 \openout1 = `Vatsal_CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33967 strings out of 478268
- 666413 string characters out of 5846348
- 1191712 words of memory out of 5000000
- 51523 multiletter control sequences out of 15000+600000
- 482363 words of font info for 121 fonts, out of 8000000 for 9000
+ 34025 strings out of 478268
+ 668585 string characters out of 5846348
+ 1195189 words of memory out of 5000000
+ 51570 multiletter control sequences out of 15000+600000
+ 482507 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,20n,122p,1868b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
@@ -1226,16 +1226,15 @@ e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 /public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb>
-Output written on Vatsal_CV.pdf (4 pages, 223505 bytes).
+public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb>
+Output written on Vatsal_CV.pdf (4 pages, 215936 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 43629 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 43645 words of extra memory for PDF output out of 51595 (max. 10000000)
 

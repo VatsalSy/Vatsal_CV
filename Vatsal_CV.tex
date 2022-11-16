@@ -15,11 +15,14 @@ maxnames=99,
 defernumbers=true,
 natbib=true,
 sorting=ydnt]{biblatex}
+\addbibresource{publications/journal2022.bib}
 \addbibresource{publications/journal2021.bib}
 \addbibresource{publications/journal2020.bib}
 \addbibresource{publications/journal2019.bib}
 \addbibresource{publications/journal2018.bib}
 \addbibresource{publications/journal2017.bib}
+\addbibresource{publications/conference2022.bib}
+\addbibresource{publications/conference2021.bib}
 \addbibresource{publications/conference2020.bib}
 \addbibresource{publications/conference2019.bib}
 \addbibresource{publications/conference2016.bib}
@@ -41,20 +44,23 @@ sorting=ydnt]{biblatex}
 	\renewcommand*{\makelabel}[1]{\hss##1}}
 {\endlist}
 {\item}
+\renewbibmacro{in:}{}
+\renewcommand{\finentrypunct}{}
+
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
 \firstname{Vatsal}
 \familyname{Sanjay}
-\title{B.Tech, M.Tech}
-\address{Scientist (Fluid Dynamicist)}{Physics of Fluids}{University of Twente}
+\title{Ph.D.}
+\address{ Fluid Dynamicist}{Physics of Fluids}{University of Twente}
 %\mobile{+31-7895940240}
 \email{vatsalsanjay@gmail.com}
 \homepage{vatsalsanjay.com}
 \quote{\textbf{On a quest in the world of multi-phase flows}}
 \usepackage{lastpage}
 \rfoot{\textit{\small{\color{gray}\thepage/\color{red}\pageref{LastPage}}}}
-\defbibnote{weblink}{To access the full-texts, please visit \href{https://sites.google.com/view/vatsalsanjay/publications}{\color{cyan}\textbf{\underline{my web page}}}.}
+\defbibnote{weblink}{To access the full-texts, please visit \href{https://www.vatsalsanjay.com/publications}{\color{cyan}\textbf{\underline{my web page}}}.}
 \begin{document}
 \hypersetup{
 	colorlinks,
@@ -67,40 +73,53 @@ sorting=ydnt]{biblatex}
 \cvitem{Updated On:}{\today}
 \section{\textbf{Research Interests}}
 \cvitem[-1em]{\textbf{Fluid}}{
-	\hspace{-25mm}\cvlistdoubleitem{Liquid - Liquid Encapsulation}{Molecular Dynamics Simulations}
+	\hspace{-25mm}\cvlistdoubleitem{Drop Impact}{Encapsulation}
+	\hspace{-25mm}\cvlistdoubleitem{Bubbles Dynamics}{Plastocapillarity}
 	\hspace{-25mm}\cvlistdoubleitem{Liquid Jets \& their Interactions}{Liquid Sheets: Formation \& Stability}
 	\hspace{-25mm}\cvlistdoubleitem{Computational Fluid Dynamics}{Interface Reconstruction}
-	\hspace{-25mm}\cvlistdoubleitem{Droplets \& Bubbles Dynamics}{Boiling Heat Transfer}
 }
 \cvitem[-1em]{\textbf{Fire}}{
 	\hspace{-25mm}\cvlistdoubleitem{Compartmental Fire}{Fire Propagation and Soot Flow}
 }
-\section{\textbf{Education}}
-\cventry{\textbf{2018--Present}}{Ph.D. (Fluid Dynamics)}{}{}{}{Physics of Fluids, University of Twente}
-\cvitem{Focus on:}{Volume of Fluid simulations, Drop Impact, Viscoplastic flows, Three phase flows}
-\cventry{\textbf{2013--2018}}{B.Tech (Mechanical Engineering) \& M.Tech (Thermal Engineering)}{}{}{}{Two-Phase Flow \& Instability Lab, Indian Institute of Technology Roorkee.}
-\cvitem{Focus on:}{Liquid Jet Dynamics, Formation \& Stability of Liquid Chain,  Multiscale Numeical Simulations, Flame Dynamics}
-\cvitem{Graduated:}{First Division with Distinction (CGPA:\textit{ 9.10/10})}
-\cventry{\textbf{2013}}{AISSCE}{High School}{Graduated with \textit{96.4\%} marks}{}{}
-\cventry{\textbf{2011}}{AISSE}{Secondary School}{Graduated with CGPA of \textit{10/10}}{}{}
-\section{\textbf{Dissertation (B.Tech \& M.Tech)}}
-\cvitem{\textbf{Title}}{\textbf{Understanding of mutual interactions between liquid jets: Entrainment and sheet formation}}
-\cvitem{\textbf{Supervisor}}{\href{https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akdasfme.html}{\textbf{Prof. Arup Kumar Das}}}
-\cvitem{}{I have worked on two major problems: Formation of liquid chain by collision of liquid jets \& Air entainment by plunging liquid jet. These interactions are investigated using detailed numerical simulations and in-house experiments. Full text is available at: \href{https://goo.gl/kws3Nf}{https://goo.gl/kws3Nf}}
+\section{\textbf{Experience}}
+\cventry{2022 -- Present}{Postdoctoral researcher}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{University of Twente, Enschede, the Netherlands}
+%\cvitem{\textbf{Advisor:}}{\href{https://en.wikipedia.org/wiki/Detlef_Lohse}{\textbf{Prof. Detlef Lohse}}}
 
-\pagebreak
-
-\section{\textbf{Professional Positions}}
-\cventry{2018 -- Present}{Researcher (Ph.D. Candidate)}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{University of Twente, Enschede, the Netherlands}
+\cventry{2018 -- 2022}{Researcher (Ph.D. Candidate)}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{University of Twente, Enschede, the Netherlands}
 \cvitem{\textbf{Advisor:}}{\href{https://en.wikipedia.org/wiki/Detlef_Lohse}{\textbf{Prof. Detlef Lohse}}}
 
 \cventry{May -- July, 2016}{Research Intern}{\href{http://lmfa.ec-lyon.fr/}{Fluid Mechanics \& Acoustics Laboratory - UMR 5509}}{}{}{Universit\'e Claude Bernard Lyon1, France}
 \cvitem{\textbf{Advisors:}}{
-\textbf{\href{http://lmfa.ec-lyon.fr/spip.php?article408}{Prof. Jean-Philippe Matas},
+	\textbf{\href{http://lmfa.ec-lyon.fr/spip.php?article408}{Prof. Jean-Philippe Matas},
 		\href{http://lmfa.ec-lyon.fr/spip.php?article378}{Prof. J. John Soundar Jerome}, \href{http://www.ens-lyon.fr/PHYSIQUE/presentation/annuaire/bourgoin-mickael}{Prof. Micka\"el Bourgoin}}
 }
 \cventry{2014 -- 2018}{Research Assistant}{\href{http://twophaseiitr.weebly.com/}{Two-Phase Flow \& Instability Lab}}{}{}{Indian Institute of Technology Roorkee, India}
 \cvitem{\textbf{Advisor:}}{\href{https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akdasfme.html}{\textbf{Prof. Arup Kumar Das}}}
+
+\section{\textbf{Education}}
+\cventry{\textbf{2018--2022}}{Ph.D. (Fluid Dynamics)}{}{}{}{Physics of Fluids, University of Twente}
+%\cvitem{Focus on:}{Volume of Fluid simulations, Drop Impact, Viscoplastic flows, Three phase flows}
+%\cvitem{Graduated:}{Doctor cum laude (met Lof): with distinction}
+\cventry{\textbf{2013--2018}}{B.Tech (Mechanical Engineering) \& M.Tech (Thermal Engineering)}{}{}{}{Two-Phase Flow \& Instability Lab, Indian Institute of Technology Roorkee.}
+%\cvitem{Focus on:}{Liquid Jet Dynamics, Formation \& Stability of Liquid Chain,  Multiscale Numeical Simulations, Flame Dynamics}
+\cvitem{Graduated:}{First Division with Distinction (CGPA:\textit{ 9.10/10})}
+\cventry{\textbf{2013}}{AISSCE}{High School}{Graduated with \textit{96.4\%} marks}{}{}
+%\cventry{\textbf{2011}}{AISSE}{Secondary School}{Graduated with CGPA of \textit{10/10}}{}{}
+
+\section{\textbf{Theses}}
+\cvitem{Ph.D.}{\textbf{Viscous free-surface flows}}
+%\cvitem{\textbf{Advisor:}}{\href{https://en.wikipedia.org/wiki/Detlef_Lohse}{\textbf{Prof. Detlef Lohse}}}
+\cvitem{}{\href{https://doi.org/10.3990/1.9789036554077}{DOI: 10.3990/1.9789036554077}}
+\cvitem{B.Tech \& M.Tech}{\textbf{Understanding of mutual interactions between liquid jets: Entrainment and sheet formation}}
+%\cvitem{\textbf{Advisor}}{\href{https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akdasfme.html}{\textbf{Prof. Arup Kumar Das}}}
+\cvitem{}{\href{https://goo.gl/kws3Nf}{https://goo.gl/kws3Nf}}
+%\cvitem{}{I have worked on two major problems: Formation of liquid chain by collision of liquid jets \& Air entainment by plunging liquid jet. These interactions are investigated using detailed numerical simulations and in-house experiments. Full text is available at: \href{https://goo.gl/kws3Nf}{https://goo.gl/kws3Nf}}
+
+%\pagebreak
+\section{\textbf{Theses Supervised}}
+\cvitem{Masters}{\href{https://bit.ly/3NG2fpz}{Tom Appleford}, \href{https://bit.ly/3h6Z26e}{Steven Meuleman}}
+\cvitem{Bachelors}{\href{https://bit.ly/3Up7xIw}{Twan Heijink}, \href{https://bit.ly/3Ta5Nl1}{Thijmen Kroeze}, \href{https://bit.ly/3zPPnHH}{Coen Verschuur}, \href{https://bit.ly/3fFODhz}{Pim Dekker}, \href{https://bit.ly/3hbTCHb}{Laurence Bruggink}}
+
 \nocite{*}
 \defbibheading{bibliography}{}
 \section{\textbf{Manuscripts in Preparation or Under Review}}
@@ -108,72 +127,91 @@ sorting=ydnt]{biblatex}
 \section{\textbf{Research Publications}}
 \printbibliography[prenote=weblink,keyword=Journal,resetnumbers=true]
 
-\section{\textbf{Scholastic Awards and Achievements}}
-\cventry{2018}{\textbf{Department gold medal}}{B.Tech (Mechanical Engineering) \& M.Tech (Thermal Engineering)}{Indian Institute of Technology Roorkee}{}{}
-\cventry{2017}{\textbf{All India Rank 2988}}{Graduate Aptitute Test in Engineering}{among 190648 candidates}{}{}
-\cventry{2015}{\textbf{Summer Undergraduate Research Award}}{Indian Institute of Technology Roorkee}{}{}{}
-\cvitem{}{Awarded summer fellowship for two months long research project}
+\section{\textbf{Invited Presentations}}
+\subsection{\textbf{Drop Impact Forces}}
+\cvitem{Oct, 2022}{University of Akron}
+\cvitem{}{\href{https://youtu.be/enTMAucwUDs}{Complex Fluids and Soft Matter (CFSM) Seminar Series}}
+
+%\cvitem[-1ex]{Oct, 2022}{
+%	\begin{itemize}
+%		\item University of Akron
+%		\item \href{https://youtu.be/enTMAucwUDs}{Complex Fluids and Soft Matter (CFSM) Seminar Series}
+%	\end{itemize}
+%}
+%\subsection{Viscoplastic Flows}
+%\cvitem[-1ex]{Jul, 2019}{
+%	\begin{itemize}
+%		\item Bursting Bubble in a Viscoplastic medium
+%		\begin{itemize}
+%			\item Indian Institute of Technology Roorkee, India
+%		\end{itemize}
+%	\end{itemize}
+%}
+\subsection{\textbf{Interactions of Liquid Jets}}
+\cvitem{Jan, 2018}{Physics of Fluids, University of Twente, Enschede, the Netherlands.}
+\cvitem{Mar, 2017}{Cognizance Technical Festival, Indian Institute of Technology Roorkee.}
+\cvitem{Jul, 2016}{Fluid Mechanics and Acoustics Laboratory, Lyon, France}
+%\cvitem[-1ex]{Jan, 2018}{
+%\begin{itemize}
+%	\item Physics of Fluids, University of Twente, Enschede, the Netherlands.
+%%	\begin{itemize}
+%%		\item Understanding of Mutual Interactions between Liquid Jets: Sheet Formation
+%%	\end{itemize}
+%\end{itemize}
+%}
+%\cvitem[-1ex]{Mar, 2017}{
+%	\begin{itemize}
+%		\item Cognizance Technical Festival, Indian Institute of Technology Roorkee.
+%%		\begin{itemize}
+%%			\item On interaction between interfaces: Dynamic--Dynamic \& Dynamic--Static
+%%		\end{itemize}
+%	\end{itemize}
+%}
+%\cvitem[-1ex]{Jul, 2016}{
+%	\begin{itemize}
+%		\item Fluid Mechanics and Acoustics Laboratory, Lyon, France
+%%		\begin{itemize}
+%%			\item On the air entrainment in a water pool by impingement of jet
+%%		\end{itemize}
+%	\end{itemize}
+%}
+%\vspace{-1ex}
+\subsection{\textbf{MATLAB}}
+\cvitem{2014-2017}{MIESS, Indian Institute of Technology Roorkee.}
+%\cvitem[-1ex]{2014-2017}{
+%	\begin{itemize}
+%		\item MIESS, Indian Institute of Technology Roorkee.
+%%		\begin{itemize}
+%%			\item Importance of MATLAB in Engineering Applications
+%%			\item A lecture on Image Analysis Using MATLAB
+%%		\end{itemize}
+%	\end{itemize}
+%}
+
+\section{\textbf{Awards \& Achievements}}
+\cventry{2022}{\textbf{Doctor cum laude}}{met Lof, with distinction}{University of Twente}{}{}
+\cventry{2018}{\textbf{Department gold medal}}{}{Indian Institute of Technology Roorkee}{}{}
+\cventry{2017}{\textbf{All India Rank 2988}}{GATE}{among 190648 candidates}{}{}
+\cventry{2015}{\textbf{Summer Undergraduate Research Award}}{}{Indian Institute of Technology Roorkee}{}{}
+%\cvitem{}{Awarded summer fellowship for two months long research project}
 \cventry{2013}{\textbf{All India Rank 1512}}{JEE Advanced, India}{in top 1\% of the total appearing students}{}{}
 \cventry{2013}{\textbf{All India Rank 765}}{JEE Mains, India}{Percentile score of 99.8\%}{}{}
 
 %\section{\textbf{Technical Skills}}
 %\cvdoubleitem{\textbf{CFD:}}{Gerris, Basilisk C, LAMMPS-SPH \& MD, PARIS Simulator, Fire Dynamics Simulator, OpenFOAM, ANSYS-Fluent} {\textbf{Lab based:}}{LabView: Voltage \& current module, Conductivity \& optical probes, High speed camera imaging \& image processing}
 %\cvdoubleitem{\textbf{Languages:}}{C, C++, MATLAB, Python, \LaTeX} {\textbf{Others:}}{Octave, SolidWorks, AutoCAD}
+\section{\textbf{Scientific Outreach}}
+\cvitem{2022-Present}{Skype a Scientist}
+\cvitem{2022-Present}{Physicist To-Go}
+\cvitem{2021}{Panel discussion on \href{https://www.vatsalsanjay.com/talks/fluiddynamicsfuture}{Future of fluid dynamics}}
+\cvitem{2021}{Panel discussion on \href{https://www.vatsalsanjay.com/talks/let-us-talk-research}{Research \& higher education}}
+\cvitem{2020-Present}{Twitter account for Physics of Fluids group}
+%\subsection{\textbf{Skype a Scientist}}
+%\cvitem{Oct, 2022}{Prairie Home School}
+%\subsection{\textbf{Physicist To-Go}}
+%\cvitem{Jan, 2022}{}
 
-\section{\textbf{Invited Presentations}}
-\subsection{Viscoplastic Flows}
-\cvitem[-1ex]{Jul, 2019}{
-	\begin{itemize}
-		\item Bursting Bubble in a Viscoplastic medium
-		\begin{itemize}
-			\item Indian Institute of Technology Roorkee, India
-		\end{itemize}
-	\end{itemize}
-}
-\subsection{\textbf{Interactions of Liquid Jets}}
-\cvitem[-1ex]{Jan, 2018}{
-\begin{itemize}
-	\item Understanding of Mutual Interactions between Liquid Jets: Sheet Formation
-	\begin{itemize}
-		\item Physics of Fluids, University of Twente, Enschede, the Netherlands.
-	\end{itemize}
-\end{itemize}
-}
-\cvitem[-1ex]{Mar, 2017}{
-	\begin{itemize}
-		\item On interaction between interfaces: Dynamic--Dynamic \& Dynamic--Static
-		\begin{itemize}
-			\item Cognizance Technical Festival, Indian Institute of Technology Roorkee.
-		\end{itemize}
-	\end{itemize}
-}
-\cvitem[-1ex]{Jul, 2016}{
-	\begin{itemize}
-		\item On the air entrainment in a water pool by impingement of jet
-		\begin{itemize}
-			\item Fluid Mechanics and Acoustics Laboratory, Lyon, France
-		\end{itemize}
-	\end{itemize}
-}
-\vspace{-1ex}
-\subsection{\textbf{MATLAB}}
-\cvitem[-1ex]{2014-2016}{
-	\begin{itemize}
-		\item Importance of MATLAB in Engineering Applications
-		\begin{itemize}
-			\item MIESS, Indian Institute of Technology Roorkee.
-		\end{itemize}
-	\end{itemize}
-}
-\cvitem[-1ex]{2015--2017}{
-	\begin{itemize}
-		\item A lecture on Image Analysis Using MATLAB
-		\begin{itemize}
-			\item MIESS, Indian Institute of Technology Roorkee.
-		\end{itemize}
-	\end{itemize}
-}
-\pagebreak
+%\pagebreak
 \section{\textbf{Contributed Conference Presentations}}
 \printbibliography[prenote=weblink,keyword=Conference,resetnumbers=true]
 \end{document}
