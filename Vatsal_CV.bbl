@@ -36,7 +36,7 @@
          giveni={D\bibinitperiod},
       }}%
     }
-    \keyw{JournalReview}
+    \keyw{Journal}
     \strng{namehash}{tCPLD1}
     \strng{fullhash}{tCPLD1}
     \field{labelnamesource}{author}
@@ -44,7 +44,8 @@
     \field{sortinit}{7}
     \field{sortinithash}{7}
     \field{title}{When does an impacting drop stop bouncing?}
-    \field{journaltitle}{arXiv preprint arXiv:2208.05935}
+    \field{journaltitle}{J. Fluid Mech., to be published, arXiv preprint
+  arXiv:2208.05935}
     \field{year}{2022}
   \endentry
 
@@ -110,7 +111,7 @@
          giveni={D\bibinitperiod},
       }}%
     }
-    \keyw{JournalReview}
+    \keyw{Journal}
     \strng{namehash}{tLSCPSJHLD1}
     \strng{fullhash}{tLSCPSJHLD1}
     \field{labelnamesource}{author}
@@ -118,7 +119,8 @@
     \field{sortinit}{7}
     \field{sortinithash}{7}
     \field{title}{Drop impact on viscous liquid films}
-    \field{journaltitle}{arXiv preprint arXiv:2206.06298}
+    \field{journaltitle}{J. Fluid Mech., to be published, arXiv preprint
+  arXiv:2206.06298}
     \field{year}{2022}
   \endentry
 
@@ -248,7 +250,6 @@
     \verb{doi}
     \verb 10.1103/PhysRevLett.129.104501
     \endverb
-    \field{number}{10}
     \field{pages}{104501}
     \field{title}{Impact forces of water drops falling on superhydrophobic
   surfaces}
@@ -362,7 +363,7 @@
     \verb 10.1017/jfm.2021.489
     \endverb
     \field{pages}{A2}
-    \field{title}{Bursting Bubble in a Viscoplastic medium}
+    \field{title}{Bursting bubble in a viscoplastic medium}
     \field{volume}{922}
     \field{journaltitle}{J. Fluid Mech.}
     \field{year}{2021}
@@ -449,6 +450,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.1126/sciadv.aba4330
+    \endverb
     \field{number}{34}
     \field{pages}{eaba4330}
     \field{title}{Lifting a sessile oil drop from a superamphiphobic surface
@@ -577,6 +581,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.1002/aic.16373
+    \endverb
     \field{number}{1}
     \field{pages}{372\bibrangedash 384}
     \field{title}{Consequences of inclined and dual jet impingement in stagnant
@@ -914,13 +921,9 @@
     \verb{doi}
     \verb 10.1002/aic.15828
     \endverb
-    \field{issn}{1547-5905}
     \field{number}{11}
     \field{pages}{5169\bibrangedash 5181}
     \field{title}{On air entrainment in a water pool by impingement of a jet}
-    \verb{url}
-    \verb http://dx.doi.org/10.1002/aic.15828
-    \endverb
     \field{volume}{63}
     \field{journaltitle}{AIChE J.}
     \field{year}{2017}
