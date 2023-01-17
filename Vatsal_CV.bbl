@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
-  \entry{vatsal2021d}{article}{}
+  \entry{vatsal2023b}{article}{}
     \name{author}{3}{}{%
       {{hash=t}{%
          family={\textbf{Sanjay, V.}},
@@ -43,44 +43,15 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.48550/arXiv.2208.05935
+    \endverb
     \field{title}{When does an impacting drop stop bouncing?}
-    \field{journaltitle}{J. Fluid Mech., to be published, arXiv preprint
-  arXiv:2208.05935}
-    \field{year}{2022}
+    \field{journaltitle}{J. Fluid Mech., to be published}
+    \field{year}{2023}
   \endentry
 
-  \entry{sanjay2022EFMC}{article}{}
-    \name{author}{3}{}{%
-      {{hash=t}{%
-         family={\textbf{Sanjay, V.}},
-         familyi={t\bibinitperiod},
-      }}%
-      {{hash=CP}{%
-         family={Chantelot},
-         familyi={C\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=LD}{%
-         family={Lohse},
-         familyi={L\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \keyw{Conference}
-    \strng{namehash}{tCPLD1}
-    \strng{fullhash}{tCPLD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \field{title}{When does an impacting drop stop bouncing?}
-    \field{journaltitle}{EFMC}
-    \field{year}{2022}
-  \endentry
-
-  \entry{vatsal2021c}{article}{}
+  \entry{vatsal2023a}{article}{}
     \name{author}{5}{}{%
       {{hash=t}{%
          family={\textbf{Sanjay, V.}},
@@ -118,9 +89,42 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
     \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.48550/arXiv.2206.06298
+    \endverb
     \field{title}{Drop impact on viscous liquid films}
-    \field{journaltitle}{J. Fluid Mech., to be published, arXiv preprint
-  arXiv:2206.06298}
+    \field{journaltitle}{J. Fluid Mech., to be published}
+    \field{year}{2023}
+  \endentry
+
+  \entry{sanjay2022EFMC}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Sanjay, V.}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chantelot},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Conference}
+    \strng{namehash}{tCPLD1}
+    \strng{fullhash}{tCPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{title}{When does an impacting drop stop bouncing?}
+    \field{journaltitle}{EFMC}
     \field{year}{2022}
   \endentry
 
@@ -1058,6 +1062,11 @@
     \field{title}{Building fire safety: numerical simulation and evacuation
   planning}
     \field{year}{2015}
+  \endentry
+
+  \entry{vatsal2021d}{article}{}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
   \endentry
 \enddatalist
 \endinput

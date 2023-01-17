@@ -18,64 +18,66 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Vatsal_CV-blx.bib
-Database file #2: publications/journal2022.bib
-Repeated entry---line 46 of file publications/journal2022.bib
- : %@article{vatsal2021d
- :                      ,
+Database file #2: publications/journal2023.bib
+Database file #3: publications/journal2022.bib
+You're missing a field name---line 31 of file publications/journal2022.bib
+ : 
+ : % keywords = {JournalReview},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Database file #3: publications/journal2021.bib
-Database file #4: publications/journal2020.bib
-Database file #5: publications/journal2019.bib
-Database file #6: publications/journal2018.bib
-Database file #7: publications/journal2017.bib
-Database file #8: publications/conference2022.bib
-Database file #9: publications/conference2021.bib
-Database file #10: publications/conference2020.bib
-Database file #11: publications/conference2019.bib
-Database file #12: publications/conference2016.bib
-Database file #13: publications/conference2015.bib
+Database file #4: publications/journal2021.bib
+Database file #5: publications/journal2020.bib
+Database file #6: publications/journal2019.bib
+Database file #7: publications/journal2018.bib
+Database file #8: publications/journal2017.bib
+Database file #9: publications/conference2022.bib
+Database file #10: publications/conference2021.bib
+Database file #11: publications/conference2020.bib
+Database file #12: publications/conference2019.bib
+Database file #13: publications/conference2016.bib
+Database file #14: publications/conference2015.bib
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 29 entries,
+You've used 30 entries,
             6399 wiz_defined-function locations,
-            1370 strings with 14158 characters,
-and the built_in function-call counts, 281344 in all, are:
-= -- 19761
-> -- 11341
-< -- 1315
-+ -- 14359
-- -- 8504
-* -- 19208
-:= -- 36085
+            1374 strings with 14150 characters,
+and the built_in function-call counts, 282870 in all, are:
+= -- 19797
+> -- 11344
+< -- 1331
++ -- 14362
+- -- 8511
+* -- 19263
+:= -- 36119
 add.period$ -- 0
-call.type$ -- 29
-change.case$ -- 422
-chr.to.int$ -- 384
-cite$ -- 56
-duplicate$ -- 26397
-empty$ -- 20795
+call.type$ -- 30
+change.case$ -- 423
+chr.to.int$ -- 386
+cite$ -- 58
+duplicate$ -- 26608
+empty$ -- 21050
 format.name$ -- 2745
-if$ -- 51541
+if$ -- 51898
 int.to.chr$ -- 0
-int.to.str$ -- 116
+int.to.str$ -- 118
 missing$ -- 0
-newline$ -- 1042
+newline$ -- 1053
 num.names$ -- 1395
-pop$ -- 10463
+pop$ -- 10796
 preamble$ -- 1
 purify$ -- 707
 quote$ -- 0
-skip$ -- 6452
+skip$ -- 6515
 stack$ -- 0
-substring$ -- 36546
-swap$ -- 4877
-text.length$ -- 1110
-text.prefix$ -- 28
+substring$ -- 36552
+swap$ -- 4940
+text.length$ -- 1124
+text.prefix$ -- 29
 top$ -- 1
-type$ -- 974
+type$ -- 1008
 warning$ -- 0
-while$ -- 3676
+while$ -- 3682
 width$ -- 0
-write$ -- 1014
+write$ -- 1024
 (There was 1 error message)

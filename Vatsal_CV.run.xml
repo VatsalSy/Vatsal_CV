@@ -84,6 +84,7 @@
       <file>Vatsal_CV-blx.bib</file>
     </requires>
     <requires type="editable">
+      <file>publications/journal2023.bib</file>
       <file>publications/journal2022.bib</file>
       <file>publications/journal2021.bib</file>
       <file>publications/journal2020.bib</file>
