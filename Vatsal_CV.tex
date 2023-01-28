@@ -1,63 +1,26 @@
 \documentclass[11pt,a4paper,roman,english,colorlinks,linkcolor=true]{moderncv}
+
 \moderncvstyle{classic}%'casual', 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red}%'blue', 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\newcommand*{\dateofbirth}[1]{\def\@dateofbirth{#1}}
+
+\moderncvcolor{blue}%'blue', 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.75,a4paper]{geometry}
 \usepackage{babel}
 \usepackage{xcolor}
-\usepackage[url=false,
-backend=bibtex,
-style=numeric,
-doi=true,
-isbn=true,
-backref=false,
-maxnames=99,
-defernumbers=true,
-natbib=true,
-sorting=ydnt]{biblatex}
+\usepackage{enumitem}
 
-\addbibresource{publications/journal2023.bib}
-\addbibresource{publications/journal2022.bib}
-\addbibresource{publications/journal2021.bib}
-\addbibresource{publications/journal2020.bib}
-\addbibresource{publications/journal2019.bib}
-\addbibresource{publications/journal2018.bib}
-\addbibresource{publications/journal2017.bib}
-\addbibresource{publications/conference2022.bib}
-\addbibresource{publications/conference2021.bib}
-\addbibresource{publications/conference2020.bib}
-\addbibresource{publications/conference2019.bib}
-\addbibresource{publications/conference2016.bib}
-\addbibresource{publications/conference2015.bib}
-\usepackage{refcount}
-\DeclareNameAlias{author}{last-first}
-\defbibenvironment{bibliography}
-{\list
-	{\printtext[labelnumberwidth]{%
-			\printfield{labelprefix}%
-			\printfield{labelnumber}}}
-	{\setlength{\labelwidth}{\labelnumberwidth}%
-		\setlength{\leftmargin}{5em}%
-		\setlength{\labelsep}{\biblabelsep}%
-		\addtolength{\leftmargin}{\labelsep}%
-		\addtolength{\leftmargin}{\leftskip}%<----- here
-		\setlength{\itemsep}{\bibitemsep}%
-		\setlength{\parsep}{\bibparsep}}%
-	\renewcommand*{\makelabel}[1]{\hss##1}}
-{\endlist}
-{\item}
-\renewbibmacro{in:}{}
-\renewcommand{\finentrypunct}{}
 
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
 \firstname{Vatsal}
 \familyname{Sanjay}
+
 \title{Ph.D.}
-\address{ Fluid Dynamicist}{Physics of Fluids}{University of Twente}
+\address{Physics of Fluids Group}{University of Twente}
 %\mobile{+31-7895940240}
-%\email{vatsalsanjay@gmail.com}
+\email{vatsalsanjay@gmail.com}
 \homepage{vatsalsanjay.com}
 \social{vatsalsanjay}
 \social[twitter][twitter.com/VatsalSanjay]{@VatsalSanjay}
@@ -66,7 +29,7 @@ sorting=ydnt]{biblatex}
 %\quote{\textbf{On a quest in the world of multi-phase flows}}
 \usepackage{lastpage}
 \rfoot{\textit{\small{\color{gray}\thepage/\color{red}\pageref{LastPage}}}}
-\defbibnote{weblink}{To access the full-texts, please visit \href{https://www.vatsalsanjay.com/publications}{\color{cyan}\textbf{\underline{my web page}}}.}
+
 \begin{document}
 \hypersetup{
 	colorlinks,
@@ -76,127 +39,242 @@ sorting=ydnt]{biblatex}
 }
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-\cvitem{Updated On:}{\today}
-\section{\textbf{Research Interests}}
-\cvitem[-1em]{\textbf{Fluid}}{
-	\hspace{-25mm}\cvlistdoubleitem{Multiphase flows}{Non-Newtonian flows}
-	\hspace{-25mm}\cvlistdoubleitem{Drops}{Bubbles}
-%	\hspace{-25mm}\cvlistdoubleitem{Jets}{Sheets}
-	\hspace{-25mm}\cvlistdoubleitem{Liquid Jets \& their Interactions}{Liquid sheets: formation \& stability}
-	\hspace{-25mm}\cvlistdoubleitem{Computational multi-fluid dynamics}{Interface reconstruction}
-}
-\cvitem[-1em]{\textbf{Fire}}{
-	\hspace{-25mm}\cvlistdoubleitem{Compartmental fire}{Fire propagation and soot flow}
-}
+\cvitem{Date of birth}{Feb. 5th, 1996}
+\cvitem{Updated on}{\today}
 
 \section{\textbf{Education}}
-\cventry{\textbf{2018--2022}}{Ph.D. (Fluid Dynamics)}{}{}{}{Physics of Fluids, University of Twente}
+\cventry{\textbf{2018--2022}}{Ph.D. (Fluid Dynamics)}{}{}{}{Physics of Fluids Group, University of Twente}
+\cvitem{Supervisor}{\href{https://en.wikipedia.org/wiki/Detlef_Lohse}{Prof. Dr. Detlef Lohse}}
 \cvitem{Thesis}{\textit{Viscous free-surface flows}, \href{https://doi.org/10.3990/1.9789036554077}{DOI: 10.3990/1.9789036554077}}
-%\cvitem{}{\href{https://doi.org/10.3990/1.9789036554077}{DOI: 10.3990/1.9789036554077}}
-%\cvitem{Focus on:}{Volume of Fluid simulations, Drop Impact, Viscoplastic flows, Three phase flows}
-\cvitem{Graduated}{Doctor cum laude (met Lof): with distinction.}
+\cvitem{Graduated}{Doctor cum laude, met lof (with distinction).}
 
 \cventry{\textbf{2013--2018}}{B.Tech (Mechanical Engineering) \& M.Tech (Thermal Engineering)}{}{}{}{Two-Phase Flow \& Instability Lab, Indian Institute of Technology Roorkee.}
 \cvitem{Thesis}{\textit{Understanding of mutual interactions between liquid jets: Entrainment and sheet formation}, \href{https://goo.gl/kws3Nf}{https://goo.gl/kws3Nf}}
-%\cvitem{}{\href{https://goo.gl/kws3Nf}{https://goo.gl/kws3Nf}}
-%\cvitem{Focus on:}{Liquid Jet Dynamics, Formation \& Stability of Liquid Chain,  Multiscale Numeical Simulations, Flame Dynamics}
+\cvitem{Supervisor}{\href{https://www.iitr.ac.in/~ME/Das_Arup_Kumar}{Prof. Arup Kumar Das}}
 
-\cvitem{Graduated}{First Division with Distinction (CGPA:\textit{ 9.10/10}).}
-\cventry{\textbf{2013}}{AISSCE (High School)}{}{graduated with \textit{96.4\%} marks.}{}{}
+\cvitem{Graduated}{First Division with distinction (CGPA:\textit{ 9.10/10}).}
+\cventry{\textbf{2013}}{High School (AISSCE)}{}{}{}{}
+\cvitem{Graduated}{First Division with \textit{96.4\%} marks.}
 %\cventry{\textbf{2011}}{AISSE}{Secondary School}{Graduated with CGPA of \textit{10/10}}{}{}
 
 \section{\textbf{Professional Experience}}
-\cventry{Now}{Postdoctoral researcher}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{with \href{https://en.wikipedia.org/wiki/Detlef_Lohse}{Prof. Detlef Lohse} at University of Twente, Enschede, the Netherlands.}
-%\cventry{2022 -- Present}{Postdoctoral researcher}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{University of Twente, Enschede, the Netherlands}
-%\cvitem{\textbf{Advisor:}}{\href{https://en.wikipedia.org/wiki/Detlef_Lohse}{\textbf{Prof. Detlef Lohse}}}
+%\cventry{Now}{Postdoctoral researcher}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{with \href{https://en.wikipedia.org/wiki/Detlef_Lohse}{Prof. Dr. Detlef Lohse} at University of Twente, Enschede, the Netherlands.}
+\cventry{Now}{Postdoctoral researcher}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids Group}}{}{}{at University of Twente, Enschede, the Netherlands.}
 
-%\cventry{2018 -- 2022}{Researcher (Ph.D. Candidate)}{\href{https://pof.tnw.utwente.nl/people/profile/1330}{Physics of Fluids group}}{}{}{with \href{https://en.wikipedia.org/wiki/Detlef_Lohse}{Prof. D. Lohse} at University of Twente, Enschede, the Netherlands}
+%\cventry{May -- July, 2016}{Research Intern}{\href{http://lmfa.ec-lyon.fr/}{Fluid Mechanics \& Acoustics Laboratory - UMR 5509}}{}{}{with \href{http://lmfa.ec-lyon.fr/spip.php?article408}{Prof. Jean-Philippe Matas},
+%	\href{http://lmfa.ec-lyon.fr/spip.php?article378}{Prof. J. John Soundar Jerome}, \& \href{http://www.ens-lyon.fr/PHYSIQUE/presentation/annuaire/bourgoin-mickael}{Prof. Micka\"el Bourgoin} at Universit\'e Claude Bernard Lyon 1, France.}
+\cventry{May -- July, 2016}{Research Intern}{\href{http://lmfa.ec-lyon.fr/}{Fluid Mechanics \& Acoustics Laboratory - UMR 5509}}{}{}{at Universit\'e Claude Bernard Lyon 1, France.}
 
-\cventry{May -- July, 2016}{Research Intern}{\href{http://lmfa.ec-lyon.fr/}{Fluid Mechanics \& Acoustics Laboratory - UMR 5509}}{}{}{with \href{http://lmfa.ec-lyon.fr/spip.php?article408}{Prof. Jean-Philippe Matas},
-	\href{http://lmfa.ec-lyon.fr/spip.php?article378}{Prof. J. John Soundar Jerome}, \& \href{http://www.ens-lyon.fr/PHYSIQUE/presentation/annuaire/bourgoin-mickael}{Prof. Micka\"el Bourgoin} at Universit\'e Claude Bernard Lyon 1, France.}
-%\cvitem{\textbf{Advisors:}}{
-	%	\textbf{\href{http://lmfa.ec-lyon.fr/spip.php?article408}{Prof. Jean-Philippe Matas},
-		%		\href{http://lmfa.ec-lyon.fr/spip.php?article378}{Prof. J. John Soundar Jerome}, \href{http://www.ens-lyon.fr/PHYSIQUE/presentation/annuaire/bourgoin-mickael}{Prof. Micka\"el Bourgoin}}
-	%}
-\cventry{2014 -- 2018}{Research Assistant}{\href{http://twophaseiitr.weebly.com/}{Two-Phase Flow \& Instability Lab}}{}{}{with \href{https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akdasfme.html}{Prof. Arup Kumar Das} at Indian Institute of Technology Roorkee, India.}
-%\cvitem{\textbf{Advisor:}}{\href{https://www.iitr.ac.in/departments/ME/pages/People+Faculty+akdasfme.html}{\textbf{Prof. Arup Kumar Das}}}
+%\cventry{2014 -- 2018}{Research Assistant}{\href{http://twophaseiitr.weebly.com/}{Two-Phase Flow \& Instability Lab}}{}{}{with \href{https://www.iitr.ac.in/~ME/Das_Arup_Kumar}{Prof. Arup Kumar Das} at Indian Institute of Technology Roorkee, India.}
+\cventry{2014 -- 2018}{Research Assistant}{\href{http://twophaseiitr.weebly.com/}{Two-Phase Flow \& Instability Lab}}{}{}{at Indian Institute of Technology Roorkee, India.}
 
-%\pagebreak
-\section{\textbf{Theses Supervised}}
-\cvitem{Masters}{\href{https://bit.ly/3NG2fpz}{Tom Appleford}, \href{https://bit.ly/3h6Z26e}{Steven Meuleman}}
-\cvitem{Bachelors}{\href{https://bit.ly/3Up7xIw}{Twan Heijink}, \href{https://bit.ly/3Ta5Nl1}{Thijmen Kroeze}, \href{https://bit.ly/3zPPnHH}{Coen Verschuur}, \href{https://bit.ly/3fFODhz}{Pim Dekker}, \href{https://bit.ly/3hbTCHb}{Laurence Bruggink}}
-
-\section{\textbf{Peer Review Contributions}}
-\cvitem{Referee for}{J. Fluid Mech. (40), Phys. Rev. Lett. (4), Phys. Rev. Fluids (1), Phys. Rev. E (2), Droplet (2), among others.}
-
-%\section{\textbf{Teaching}}
-%\subsection{\textbf{Advanced Fluid Mechanics}}
-%\cvitem{2018-Now}{Teaching Assistant
-%	\begin{itemize}
-%		\item
-%\end{itemize}}
 \section{\textbf{Awards \& Achievements}}
-\cventry{2022}{\textbf{Doctor cum laude}}{met Lof (with distinction)}{University of Twente.}{}{}
-\cventry{2018}{\textbf{Department gold medal}}{}{Indian Institute of Technology Roorkee.}{}{}
+\cventry{2022}{\textbf{Doctor cum laude}}{met lof (with distinction)}{University of Twente.}{}{}
+\cventry{2018}{\textbf{Department Gold Medal}}{}{Indian Institute of Technology Roorkee.}{}{}
 \cventry{2017}{\textbf{All India Rank 2988}}{GATE}{among 190648 candidates.}{}{}
 \cventry{2015}{\textbf{Summer Undergraduate Research Award}}{}{Indian Institute of Technology Roorkee.}{}{}
-%\cvitem{}{Awarded summer fellowship for two months long research project}
-\cventry{2013}{\textbf{All India Rank 1512}}{JEE Advanced, India}{in top 1\% of the total appearing students.}{}{}
+\cventry{2013}{\textbf{All India Rank 1512}}{JEE Advanced, India}{top 1\% of the appearing students.}{}{}
 \cventry{2013}{\textbf{All India Rank 765}}{JEE Mains, India}{Percentile score of 99.8\%.}{}{}
 \cventry{2013}{\textbf{City Rank 1}}{AISSCE (High School)}{highest score in the district of Darbhanga.}{}{}
-%\section{\textbf{Technical Skills}}
-%\cvdoubleitem{\textbf{CFD:}}{Gerris, Basilisk C, LAMMPS-SPH \& MD, PARIS Simulator, Fire Dynamics Simulator, OpenFOAM, ANSYS-Fluent} {\textbf{Lab based:}}{LabView: Voltage \& current module, Conductivity \& optical probes, High speed camera imaging \& image processing}
-%\cvdoubleitem{\textbf{Languages:}}{C, C++, MATLAB, Python, \LaTeX} {\textbf{Others:}}{Octave, SolidWorks, AutoCAD}
+
+\section{\textbf{Service to the community}}
+\cvitem{}{Referee for J. Fluid Mech. (41), Phys. Rev. Lett. (4), Phys. Rev. Fluids (1), Phys. Rev. E (2), Droplet (2), among others.}
+\cvitem{}{Organizer of Physics of Fluids Group seminar from 2022 on, co-organizer of conference PoF25 (taking place in Twente in October 2023, about 200 participants).}
+
 \section{\textbf{Scientific Outreach}}
-\cvitem{2020-Present}{Twitter account for Physics of Fluids group, \href{https://twitter.com/poftwente}{@poftwente}.}
-\cvitem{2020-Present}{Physics of fluids group seminar organizer.}
-\cvitem{2022-Present}{Skype a Scientist.}
-\cvitem{2022-Present}{Physicist To-Go.}
+\cvitem{2020-Present}{Twitter account for Physics of Fluids Group, \href{https://twitter.com/poftwente}{@poftwente}.}
+\cvitem{2022-Present}{Skype a Scientist: interact with high-school students.}
+\cvitem{2022-Present}{Physicist To-Go (APS): interact with high-school students.}
 \cvitem{2022-Present}{APS-DFD peer mentoring program (as a mentor).}
 \cvitem{2021}{Panel discussion on \href{https://www.vatsalsanjay.com/talks/fluiddynamicsfuture}{Future of fluid dynamics}}
 \cvitem{2021}{Panel discussion on \href{https://www.vatsalsanjay.com/talks/let-us-talk-research}{Research \& higher education}}
-%\subsection{\textbf{Skype a Scientist}}
-%\cvitem{Oct, 2022}{Prairie Home School}
-%\subsection{\textbf{Physicist To-Go}}
-%\cvitem{Jan, 2022}{}
 
-\section{\textbf{Invited Talks}}
-\subsection{\textbf{Impact of droplets}}
-\cvitem{Jan, 2023}{\begin{itemize}
-		\item Universit\'e Claude Bernard Lyon 1, France.
-		\item Indian Institute of Technology Delhi.
-\end{itemize}}
-\vspace*{-4mm}
-\cvitem{Dec, 2022}{Indian Institute of Technology Bombay.}
-\cvitem{Oct, 2022}{\begin{itemize}
-		\item University of Akron (Virtual).
-		\item \href{https://youtu.be/enTMAucwUDs}{Complex Fluids and Soft Matter (CFSM) Seminar Series} (Virtual).
-\end{itemize}}
-\vspace*{-4mm}
-\subsection{\textbf{Taylor-Culick Retractions}}
-\cvitem{Dec, 2022}{\begin{itemize}
-		\item Indian Institute of Technology Roorkee.
-		\item Indian Institute of Technology Kharagpur.
-\end{itemize}}
-\vspace*{-4mm}
-\subsection{\textbf{Bouncing \& Jumping Drops \& Bubbles}}
-\cvitem{Jan, 2023}{Indian Institute of Technology Patna.}
-\subsection{\textbf{Interactions of Liquid Jets}}
-\cvitem{Jan, 2018}{Physics of Fluids, University of Twente, Enschede, the Netherlands.}
-\cvitem{Mar, 2017}{Cognizance Technical Festival, Indian Institute of Technology Roorkee.}
-\cvitem{Jul, 2016}{Universit\'e Claude Bernard Lyon 1, France.}
-\subsection{\textbf{Physics \& Computations}}
-\cvitem{2014-2017}{MIESS, Indian Institute of Technology Roorkee.}
+\section{\textbf{Supervision \& Teaching}}
+\subsection{Theses Supervised}
+\cvitem{Masters}{\href{https://bit.ly/3NG2fpz}{Tom Appleford}, \href{https://bit.ly/3h6Z26e}{Steven Meuleman}}
+\cvitem{Bachelors}{\href{https://bit.ly/3Up7xIw}{Twan Heijink}, \href{https://bit.ly/3Ta5Nl1}{Thijmen Kroeze}, \href{https://bit.ly/3zPPnHH}{Coen Verschuur}, \href{https://bit.ly/3fFODhz}{Pim Dekker}, \href{https://bit.ly/3hbTCHb}{Laurence Bruggink}}
+\subsection{Teaching Assistant}
+\cvitem{2018-Now}{Advanced Fluid Mechanics, University of Twente.}
+\cvitem{2017-2018}{Two Phase Flow and Heat Transfer, Indian Institute of Technology Roorkee.}
 
-%\pagebreak
-\nocite{*}
-\defbibheading{bibliography}{}
-%\section{\textbf{Manuscripts in Preparation or Under Review}}
-%\section{\textbf{Manuscripts under review}}
-%\printbibliography[prenote=weblink,keyword=JournalReview,resetnumbers=true]
-\section{\textbf{Publications}}
-\printbibliography[prenote=weblink,keyword=Journal,resetnumbers=true]
-%%\pagebreak
-%\section{\textbf{Contributed Conference Presentations}}
-%\printbibliography[prenote=weblink,keyword=Conference,resetnumbers=true]
+
+\section{\textbf{Research Interests}}
+\cvitem[-1em]{}{
+	\hspace{-25mm}\cvlistdoubleitem{Multiphase flows}{Non-Newtonian flows}
+	\hspace{-25mm}\cvlistdoubleitem{Drops}{Bubbles}
+	\hspace{-25mm}\cvlistdoubleitem{Liquid jets \& their interactions}{Liquid sheets: formation \& stability}
+	\hspace{-25mm}\cvlistdoubleitem{Computational multi-fluid dynamics}{Interface reconstruction}
+}
+
+\section{\textbf{Peer-Reviewed Publications}}
+
+\begin{enumerate}[leftmargin=2.5cm]
+	\item \textbf{Vatsal Sanjay}, Pierre Chantelot, and Detlef Lohse,\\
+	When does an impacting drop stop bouncing?,\\
+	J. Fluid Mech., in press (2023) [20 pages];\\
+	DOI:\href{https://doi.org/10.48550/arXiv.2208.05935}{10.48550/arXiv.2208.05935}.
+	\item \textbf{Vatsal Sanjay}, Srinath Lakshman, Pierre Chantelot, Jacco H. Snoeijer, and Detlef Lohse,\\
+	Drop impact on viscous liquid films,\\
+	J. Fluid Mech., in press (2023) [28 pages];\\
+	DOI:\href{https://doi.org/10.48550/arXiv.2206.06298}{10.48550/arXiv.2206.06298}.	
+	\item Bin Zhang, \textbf{Vatsal Sanjay}, Songlin Shi,  Yinggang Zhao,  Cunjing Lv,  Xi-Qiao Feng,  and Detlef Lohse,\\
+	Impact forces of water drops falling on superhydrophobic surfaces,\\
+	Phys. Rev. Lett. 129, 104501 (2022) [7 pages],\\
+	DOI: \href{https://doi.org/10.1103/PhysRevLett.129.104501}{10.1103/PhysRevLett.129.104501};\\
+	see also
+	\begin{itemize}
+		\item
+		Editor's Suggestion of that issue. 
+		\item
+		Davide Castelvecchi, Research Highlight: ``The physics of a bouncing droplet's impact'', \href{https://www.nature.com/articles/d41586-022-02302-w}{Nature, article: d41586-022-02302-w} (29/8/2022)
+	\end{itemize}
+	\item \textbf{Vatsal Sanjay}, Uddalok Sen, Pallav Kant, and Detlef Lohse,\\
+	Taylor-Culick retractions and the influence of the surroundings,\\
+	J. Fluid Mech. 948, A14  (2022) [37 pages];\\
+	DOI: \href{https://doi.org/10.1017/jfm.2022.671}{10.1017/jfm.2022.671}.
+	\item \textbf{Vatsal Sanjay}, Detlef Lohse, and Maziyar Jalaal,\\
+	Bursting bubble in a viscoplastic medium,\\
+	J. Fluid Mech. 922, A22  (2021) [24 pages];\\
+	DOI: \href{https://doi.org/10.1017/jfm.2021.489}{10.1017/jfm.2021.489}.
+	\item Olinka Ramirez-Soto, \textbf{Vatsal Sanjay},  Detlef Lohse,  Jonathan T. Pham, and Doris Vollmer,\\
+	Lifting a sessile oil drop with an impacting one,\\
+	Sci. Adv. 6, eaba4330  (2020) [11 pages];\\
+	DOI: \href{https://doi.org/10.1126/sciadv.aba4330}{10.1126/sciadv.aba4330}.	
+	
+	\item Abhinav Jain, \textbf{Vatsal Sanjay}, and Arup Kumar Das,\\
+	Consequences of inclined and dual jet impingement in stagnant liquid and stratified layers,\\
+	AlChE J. 65(1), 372-384  (2019) [12 pages],\\
+	DOI: \href{https://doi.org/10.1002/aic.16373}{10.1002/aic.16373}.
+	
+	\item Anurag Soni, \textbf{Vatsal Sanjay}, and Arup Kumar Das,\\
+	Formation of fluid structures due to jet-jet and jet-sheet interactions,\\
+	Chem. Eng. Sci. 191, 67-77  (2018) [11 pages],\\
+	DOI: \href{https://doi.org/10.1016/j.ces.2018.06.055}{10.1016/j.ces.2018.06.055}.
+	
+	\item \textbf{Vatsal Sanjay} and Arup Kumar Das,\\
+	Numerical assessment of hazard in compartmental fire having steady heat release rate from the source,\\
+	Build. Simul. 11(3), 613-624  (2018) [12 pages],\\
+	DOI: \href{https://doi.org/10.1007/s12273-017-0411-y}{10.1007/s12273-017-0411-y}.
+	
+	\item \textbf{Vatsal Sanjay} and Arup Kumar Das,\\
+	On air entrainment in a water pool by impingement of a jet,\\
+	AIChE J. 63(11), 5169--5181  (2017) [23 pages],\\
+	DOI: \href{https://doi.org/10.1002/aic.15828}{10.1002/aic.15828}.
+	
+	\item \textbf{Vatsal Sanjay} and Arup Kumar Das,\\
+	Formation of liquid chain by collision of two laminar jets,\\
+	Phys. Fluids 29, 112101  (2017) [12 pages];\\
+	DOI: \href{https://doi.org/10.1063/1.4998288}{10.1063/1.4998288}.
+	
+\end{enumerate}
+
+
+\section{\textbf{Invited \& Contributed Talks}}
+\begin{enumerate}[leftmargin=2.5cm]
+	\item 20.1.2023,\\
+	Impact of droplets,\\
+	invited talk at Universit\'e Claude Bernard Lyon 1, France.
+	
+	\item 10.1.2023,\\
+	Impact of droplets,\\
+	invited talk at the IIT-Delhi, India.
+
+	\item 4.1.2023,\\
+	Impact of droplets,\\
+	invited talk at the IIT-Patna, India.
+	
+	\item 26.12.2022,\\
+	Taylor-Culick retractions,\\
+	invited talk at the IIT-Kharagpur, India.
+	
+	\item 16.12.2022,\\
+	Jumping \& Bouncing Drops \& Bubbles,\\
+	contributed talk at the Annual Meeting of the Indian Fluid Dynamics Society, FMFP-2022, at IIT-Roorkee, India.
+	
+	\item 12.12.2022\\
+	Taylor-Culick retractions,\\
+	invited talk at the IIT-Roorkee, India.
+	
+	\item 7.12.2022\\
+	Drop impact forces,\\
+	invited talk at the IIT-Bombay, India.
+	
+	\item 21.11.2022,\\
+	Impact forces of water drops falling on superhydrophobic surfaces,\\
+	contributed talk at APS-DFD in Indianapolis, Indiana, USA.
+	
+	\item 26.10.2022,\\
+	Drop impact forces,\\
+	invited talk at the Complex Fluids and Soft Matter (CFSM) Seminar Series, \href{https://youtu.be/enTMAucwUDs}{Virtual}.
+	
+	\item 12.10.2022,\\
+	Drop impact forces,\\
+	invited talk at the Virtual University of Arkon.
+	
+	\item 14.9.2022,\\
+	When does an impacting drop stop bouncing?,\\
+	contributed talk at EFMC14, Athens, Greece.
+	
+	\item 14.3.2022,\\
+	Drop impact forces,\\
+	contributed talk at Max Planck meeting, Enschede, the Netherlands.
+	
+	\item 21.11.2021,\\
+	Viscous dissipation dictates Taylor-Culick type retractions,\\
+	contributed talk at APS-DFD in Phoenix, Arizona, USA.
+	
+	\item 22.11.2020,\\
+	When does a viscous drop stop bouncing?,\\
+	contributed talk at APS-DFD in virtual Chicago.
+	
+	\item 10.2.2020,\\
+	Jumping \& Bouncing Drops \& Bubbles,\\
+	contributed talk at Max Planck meeting, Mainz, Germany.
+	
+	\item 23.11.2019,\\
+	Droplet Encapsulation,\\
+	contributed talk at APS-DFD in Seattle, Washington, USA.
+	
+	\item 18.9.2019,\\
+	Bursting Bubbles: from Champagne to Mudpots,\\
+	contributed talk at VPF8 Viscoplastic Fluids: from Theory to Application, Cambridge, UK.
+		
+	\item 23.8.2019,\\
+	Impinging drop lifts a sessile drop,\\
+	contributed talk at 9th 4U Summer School Complex Motion in Fluids, Gilleleje, Denmark.
+	
+	\item 17.6.2019,\\
+	Bursting Bubbles: from Champagne to Mudpots,\\
+	contributed talk at Basilisk/Gerris Users' Meeting 2019, Paris, France.
+	
+	\item 21.5.2019,\\
+	Impinging drop lifts a sessile drop,\\
+	contributed talk at Burgers Symposium, Lunteren, the Netherlands.
+		
+	\item 8.1.2018,\\
+	Formation of liquid chain by collision of two laminar jets,\\
+	invited talk at the Physics of Fluids Group, University of Twente, the Netherlands.
+	
+	\item 27.3.2017,\\
+	Understanding of mutual interactions between liquid jets: Entrainment and sheet formation,\\
+	invited talk at the Cognizance technical festival at IIT-Roorkee, India.
+	
+	\item 28.12.2016,\\
+	Generation of a liquid sheet by an oblique impingement of interacting jets: a numerical investigation,\\
+	contributed talk at CHEMCON2016, 69th annual session of the Indian Institute of Chemical Engineers, Chennai, India.
+	
+	\item 16.12.2016,\\
+	Investigation of jet atomization - a multi-scale approach,\\
+	contributed talk at the 6th International and 43rd National Conference on Fluid Mechanics and Fluid Power, Allahabad, India.
+	
+	\item 24.5.2016,\\
+	On the gas-liquid entrainment by impingement of liquid jet onto a pool,\\
+	contributed talk at the 9th International Conference on Multiphase Flow, Florence, Italy.
+	
+	\item 8.12.2015,\\
+	Building fire safety: numerical simulation and evacuation planning,\\
+	contributed talk at the 14th International Conference of the International Building Performance Simulation Association at Hyderabad, India.
+\end{enumerate}
+
+
 \end{document}
