@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  25 AUG 2023 09:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.5)  25 NOV 2023 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,23 +947,17 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
-
-Package rerunfilecheck Warning: File `Vatsal_CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Vatsal_CV.out':
-(rerunfilecheck)             Before: AD2FC1C1ACF90BBE6FF45BDBCC77CBBA;1938
-(rerunfilecheck)             After:  E146D75C5F90EB2D935DC60AFA73C237;1943.
+Package rerunfilecheck Info: File `Vatsal_CV.out' has not changed.
+(rerunfilecheck)             Checksum: B993EB8D5E76242E62395433C330822D;1953.
  ) 
 Here is how much of TeX's memory you used:
- 27058 strings out of 478268
- 522299 string characters out of 5846348
+ 27059 strings out of 478268
+ 522306 string characters out of 5846348
  857304 words of memory out of 5000000
  44691 multiletter control sequences out of 15000+600000
  479596 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,20n,122p,1006b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,20n,122p,1006b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 }{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.en
 c}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.e
@@ -981,10 +975,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Vatsal_CV.pdf (6 pages, 204153 bytes).
+Output written on Vatsal_CV.pdf (6 pages, 204529 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
  34925 words of extra memory for PDF output out of 35830 (max. 10000000)
 
