@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,roman,english,colorlinks,linkcolor=true]{moderncv}
+\documentclass[11pt,a4paper,roman,english,colorlinks,linkcolor={red!50!black}]{moderncv}
 
 \moderncvstyle{classic}%'casual', 'classic', 'oldstyle' and 'banking'
 %\newcommand*{\dateofbirth}[1]{\def\@dateofbirth{#1}}
@@ -30,13 +30,15 @@
 \usepackage{lastpage}
 \rfoot{\textit{\small{\color{gray}\thepage/\color{red}\pageref{LastPage}}}}
 
+%\hypersetup{
+%	colorlinks,
+%	linkcolor={red!50!black},
+%	citecolor={blue!50!black},
+%	urlcolor={blue}
+%}
+
 \begin{document}
-\hypersetup{
-	colorlinks,
-	linkcolor={red!50!black},
-	citecolor={blue!50!black},
-	urlcolor={blue}
-}
+
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 \cvitem{Date of birth}{Feb. 5th, 1996}
@@ -69,6 +71,7 @@
 \cventry{2014 -- 2018}{Research Assistant}{\href{http://twophaseiitr.weebly.com/}{Two-Phase Flow \& Instability Lab}}{}{}{at Indian Institute of Technology Roorkee, India.}
 
 \section{\textbf{Awards \& Achievements}}
+\cventry{2023}{\textbf{KIVI Hoogendoorn Fluid Mechanics Award}}{for the best PhD thesis defended in the academic year 2022-2023 in the Netherlands.}{}{}{}
 \cventry{2022}{\textbf{Doctor cum laude}}{met lof (with distinction)}{University of Twente.}{}{}
 \cventry{2018}{\textbf{Department Gold Medal}}{}{Indian Institute of Technology Roorkee.}{}{}
 \cventry{2017}{\textbf{All India Rank 2988}}{GATE}{among 190648 candidates.}{}{}
@@ -78,9 +81,13 @@
 \cventry{2013}{\textbf{City Rank 1}}{AISSCE (High School)}{highest score in the district of Darbhanga.}{}{}
 
 \section{\textbf{Service to the community}}
-\cvitem{}{Referee for J. Fluid Mech. (54), Phys. Rev. Lett. (4), Phys. Rev. Fluids (2), Phys. Rev. E (4), Droplet (2), among others.}
-\cvitem{}{Organizer of Physics of Fluids Group seminar from 2022 on.}
-\cvitem{}{Co-organizer of conference PoF25 (October 2023, about 200 participants).}
+\subsection{Referee}
+\cvitem{2018-Present}{J. Fluid Mech.~(56), Phys. Rev. Lett.~(4), Phys. Rev. Fluids~(2), Phys. Rev. E~(4), Droplet~(2), among others.}
+\subsection{Co-Organization}
+\cvitem{2022-Present}{Physics of Fluids \href{https://pof.tnw.utwente.nl/agenda}{weekly seminar} (about 10 international speakers over one year with average 40 participants).}
+\cvitem{Oct 2023}{\href{https://www.utwente.nl/en/tnw/pof25}{Flow for Future conference:} 25 years of Physics of Fluids (about 200 participants).}
+\cvitem{May 2024}{35th Dutch Soft Matter meeting (about 100 participants). Received NWO Scientific Meetings and Consultations grant (Domain: Science)}
+\cvitem{Jun 2024}{Lorentz Center workshop on ``(De)Constructing Complex Contact Lines" (about 25 participants).}
 
 \section{\textbf{Scientific Outreach}}
 \cvitem{2020-Present}{Twitter account for Physics of Fluids Group, \href{https://twitter.com/poftwente}{@poftwente}.}
@@ -92,20 +99,23 @@
 
 \section{\textbf{Supervision \& Teaching}}
 \subsection{Theses Supervised}
-\cvitem{Masters}{\href{https://bit.ly/ThesisTom}{Tom Appleford}, \href{https://bit.ly/ThesisStevenM}{Steven Meuleman}}
-\cvitem{Bachelors}{\href{https://bit.ly/ThesisTwanHeijink}{Twan Heijink}, \href{https://bit.ly/ThesisThijmenKroeze}{Thijmen Kroeze}, \href{https://bit.ly/ThesisCoenVerschuur}{Coen Verschuur}, \href{https://bit.ly/ThesisPimDekker}{Pim Dekker}, \href{https://bit.ly/ThesisLaurenceBruggink}{Laurence Bruggink}}
+\cvitem{PhD}{\href{https://pof.tnw.utwente.nl/people/profile/2120}{A.~Bhargava} (Topic: Inertial contact lines, ongoing since Jan '24)}
+\cvitem{}{\href{https://pof.tnw.utwente.nl/people/profile/2068}{A.~Dixit} (Topic: Non-Newtonian flows, ongoing since Jul '23)}
+\cvitem{Masters}{J. Talukdar~(ongoing), V. Rosario~(ongoing), \href{https://bit.ly/ThesisLuuk}{C. H. Maurits~('23)}, \href{https://bit.ly/ThesisTom}{T.~Appleford~('22)}, \href{https://bit.ly/ThesisStevenM}{S. Meuleman~('20)}}
+\cvitem{Bachelors}{J. Talukdar~('23), \href{https://bit.ly/ThesisTwanHeijink}{T. Heijink~('21)}, \href{https://bit.ly/ThesisThijmenKroeze}{T. Kroeze~('20)}, \href{https://bit.ly/ThesisCoenVerschuur}{C. Verschuur~('20)}, \href{https://bit.ly/ThesisPimDekker}{P.~J.~Dekker~('19)}, \href{https://bit.ly/ThesisLaurenceBruggink}{L. Bruggink~('19)}}
 \subsection{Teaching Assistant}
-\cvitem{2018-Now}{Advanced Fluid Mechanics, University of Twente.}
+\cvitem{2018-Present}{Advanced Fluid Mechanics, University of Twente.}
 \cvitem{2017-2018}{Two Phase Flow and Heat Transfer, Indian Institute of Technology Roorkee.}
 
 
-\section{\textbf{Research Interests}}
-\cvitem[-1em]{}{
-	\hspace{-25mm}\cvlistdoubleitem{Multiphase flows}{Non-Newtonian flows}
-	\hspace{-25mm}\cvlistdoubleitem{Drops}{Bubbles}
-	\hspace{-25mm}\cvlistdoubleitem{Liquid jets \& their interactions}{Liquid sheets: formation \& stability}
-	\hspace{-25mm}\cvlistdoubleitem{Capillary flows}{Computational multi-fluid dynamics}
-}
+%\section{\textbf{Research Interests}}
+%\cvitem[-1em]{}{
+%	\hspace{-25mm}\cvlistdoubleitem{Multiphase flows}{Non-Newtonian flows}
+%	\hspace{-25mm}\cvlistdoubleitem{Drops}{Bubbles}
+%	\hspace{-25mm}\cvlistdoubleitem{Liquid jets \& their interactions}{Liquid sheets: formation \& stability}
+%	\hspace{-25mm}\cvlistdoubleitem{Capillary flows}{Computational multi-fluid dynamics}
+%}
+\pagebreak
 
 \section{\textbf{Peer-Reviewed Publications}}
 
@@ -177,6 +187,18 @@
 
 \section{\textbf{Invited \& Contributed Talks}}
 \begin{enumerate}[leftmargin=2.5cm]
+	\item 12.4.2024,\\
+	Soft matter singularities,\\
+	invited talk at Institute for Multiscale Thermofluids--Seminar Series, University of Edinburgh, Scotland (UK).
+	
+	\item 9.4.2024\\
+	Bursting bubbles in a viscoelastic medium,\\	
+	contributed talk at the Annual European Rheology Conference in Leeds (UK)
+	 
+	\item 4.3.2024,\\
+	Deformable soft matter,\\
+	invited talk at Dynamics of interfaces, University of Augsburg, Germany.
+	
 	\item 21.11.2023,\\
 	A unifying approach to account for droplet impact forces,\\
 	contributed talk at APS-DFD in Washington, DC, USA.
@@ -285,14 +307,14 @@
 	Building fire safety: numerical simulation and evacuation planning,\\
 	contributed talk at the 14th International Conference of the International Building Performance Simulation Association at Hyderabad, India.
 \end{enumerate}
-
+\pagebreak
 \section{\textbf{Summary of key numbers (\today)}}
 \begin{enumerate}[leftmargin=2.5cm]
 	\item[$\bullet$] Researcher ID: \href{https://www.webofscience.com/wos/author/record/K-1856-2019}{K-1856-2019}
 	\item[$\bullet$] Orcid: \href{https://orcid.org/0000-0002-4293-6099}{0000-0002-4293-6099}
-	\item[$\bullet$] Hirsch-index: H = 8 (\href{https://scholar.google.com/citations?hl=en&user=67aQviYAAAAJ}{Google Scholar}), 5 (\href{https://www.webofscience.com/wos/author/record/K-1856-2019}{Web of Science})
-	\item[$\bullet$] i10-index 6 (\href{https://scholar.google.com/citations?hl=en&user=67aQviYAAAAJ}{Google Scholar})
-	\item[$\bullet$] Research Interest Score \href{https://www.researchgate.net/profile/Vatsal-Sanjay-2}{(ResearchGate)} $\approx$ 622
+	\item[$\bullet$] Hirsch-index: H = 8 (\href{https://scholar.google.com/citations?hl=en&user=67aQviYAAAAJ}{Google Scholar}), 7 (\href{https://www.webofscience.com/wos/author/record/K-1856-2019}{Web of Science})
+	\item[$\bullet$] i10-index 8 (\href{https://scholar.google.com/citations?hl=en&user=67aQviYAAAAJ}{Google Scholar})
+	\item[$\bullet$] Research Interest Score \href{https://www.researchgate.net/profile/Vatsal-Sanjay-2}{(ResearchGate)} $\approx$ 665
 \end{enumerate}
 
 \end{document}
