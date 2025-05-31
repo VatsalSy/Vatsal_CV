@@ -98,3 +98,13 @@ Add proper BibTeX entries with all metadata:
 4. Add corresponding BibTeX entry to mypublications.bib
 5. Move papers from "Works Under Review" to published section when accepted
 6. Run pdflatex twice to update references and page numbers for both CVs
+
+## Update Protocol
+When asked to update one CV or the other:
+1. **Always update Vatsal_CV.tex first** with the requested changes
+2. **Check if Vatsal_CV-shortCV.tex needs updating** based on the change:
+   - If publications were added/modified: Update shortCV with the 5 latest publications
+   - If awards/positions were added: Check if they're significant enough for the condensed CV
+   - If metrics were updated: Update the metrics line in shortCV
+   - If contact info changed: Update in both CVs
+3. **Compile both CVs** if changes were made to ensure proper formatting
