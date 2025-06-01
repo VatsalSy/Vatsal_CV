@@ -111,3 +111,43 @@ When asked to update one CV or the other:
    - If metrics were updated: Update the metrics line in shortCV
    - If contact info changed: Update in both CVs
 3. **Compile both CVs** if changes were made to ensure proper formatting
+
+## CV Formatting Symbols and Icons
+
+### Publication Symbols
+- `\faFile`: 📄 for open-access publications (replaces "(OA)")
+- `\faLock`: 🔒 for paywalled publications with DOI
+- `\faStar`: ⭐ for journal cover features and Editor's Suggestion
+- `\faChartLine`: 📈 for highly cited papers
+- Publication numbering: `\begin{enumerate}[leftmargin=1.5em,label=\textbf{[\arabic*]}]`
+
+### Section Icons
+- `\faUserGraduate`: 🎓 for PhD Theses subsection
+- `\faGraduationCap`: 🎓 for Master Theses subsection
+- `\faUniversity`: 🏫 for Bachelor Theses subsection
+- `\faUsers`: 👥 for Seminars & Conferences subsection
+- `\faCheck`: ✓ for Refereeing subsection
+- `\faMicrophone`: 🎤 for Invited Talks subsection
+- `\faComments`: 💬 for Contributed Talks subsection
+
+### Award Icons
+- **Note**: No icons used in Major Awards & Achievements section to maintain humility
+- Awards are emphasized with bold text only
+
+### Funding Icons
+- `\faFlask`: 🧪 for research fellowships and monetary funding
+- `\faServer`: 🖥️ for computational resources
+
+### Metrics Section Icons
+- `\faIdCard`: 🆔 for Researcher ID
+- `\faOrcid`: ORCID logo for ORCID
+- `\faChartLine`: 📈 for Hirsch-index
+- `\faFile`: 📄 for i10-index
+- `\faUsers`: 👥 for Research Interest Score
+
+### General Formatting
+- Talk lists use bullet points: `\item[\textbullet]`
+- Bold position titles in Professional Experience
+- Icons should have spacing: `\faIcon\hspace{0.3em}Text` for subsections, `\hspace{0.2em}` for inline
+- Maintain consistent icon usage across similar sections
+- Video links: Use `{\color{red}\faYoutube}` instead of `[Video]` text (red YouTube icon)
