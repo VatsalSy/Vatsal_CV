@@ -1,0 +1,24 @@
+# Pre-commit hooks configuration for LaTeX CV
+repos:
+  - repo: local
+    hooks:
+      - id: chktex
+        name: ChkTeX LaTeX Linter
+        entry: chktex
+        language: system
+        files: \.tex$
+        args: [--nowarn, '2', '8', '11', '13', '25']
+      - id: check-bib
+        name: Check BibTeX files
+        entry: bash
+        language: system
+        files: \.bib$
+        args: [-c, 'bibtex -terse "$@" || true', --]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        files: \.(tex|bib)$
+      - id: end-of-file-fixer
+        files: \.(tex|bib)$
+      - id: check-merge-conflict

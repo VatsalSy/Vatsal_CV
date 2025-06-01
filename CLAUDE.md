@@ -9,15 +9,18 @@ This is a LaTeX-based academic CV repository containing two versions of Vatsal S
 
 ## Build Commands
 ```bash
-# Compile the main CV
-pdflatex Vatsal_CV.tex
-bibtex Vatsal_CV
+# Using Makefile (recommended)
+make cv          # Compile main CV
+make shortcv     # Compile short CV  
+make all         # Compile both CVs
+make lint        # Run ChkTeX linter
+make clean       # Remove auxiliary files
+
+# Manual compilation (if needed)
 pdflatex Vatsal_CV.tex
 pdflatex Vatsal_CV.tex
 
 # Compile the short CV
-pdflatex Vatsal_CV-shortCV.tex
-bibtex Vatsal_CV-shortCV
 pdflatex Vatsal_CV-shortCV.tex
 pdflatex Vatsal_CV-shortCV.tex
 ```
