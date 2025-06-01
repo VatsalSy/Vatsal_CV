@@ -29,7 +29,6 @@
   ],
   "author": "Vatsal Sanjay",
   "license": "MIT",
-  "devDependencies": {},
   "engines": {
     "node": ">=14.0.0"
   }

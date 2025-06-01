@@ -8,7 +8,7 @@ BLUE := \033[0;34m
 NC := \033[0m # No Color
 
 # Main targets
-.PHONY: all clean lint help cv shortcv
+.PHONY: all clean lint help cv shortcv lint-tex lint-bib lint-lacheck check-refs
 
 # Default target
 all: lint cv shortcv
@@ -55,6 +55,43 @@ lint-verbose:
 clean:
 	@rm -f *.aux *.bbl *.blg *.log *.out *.toc *.fdb_latexmk *.fls *.synctex.gz *.build.log
 
+# Lint only TeX files
+lint-tex:
+	@echo "$(BLUE)🔍 Linting .tex files...$(NC)"
+	@chktex -q Vatsal_CV.tex Vatsal_CV-shortCV.tex || true
+	@echo "$(GREEN)✓ TeX linting completed$(NC)"
+
+# Lint bibliography files
+lint-bib:
+	@echo "$(BLUE)🔍 Checking bibliography files...$(NC)"
+	@if [ -f mypublications.bib ]; then \
+		bibtex -terse Vatsal_CV 2>&1 | grep -E "Warning|Error" || echo "$(GREEN)✓ No bibliography issues found$(NC)"; \
+	else \
+		echo "$(YELLOW)⚠  No bibliography file found$(NC)"; \
+	fi
+
+# Run lacheck linter
+lint-lacheck:
+	@echo "$(BLUE)🔍 Running lacheck...$(NC)"
+	@if command -v lacheck >/dev/null 2>&1; then \
+		lacheck Vatsal_CV.tex || true; \
+		lacheck Vatsal_CV-shortCV.tex || true; \
+		echo "$(GREEN)✓ lacheck completed$(NC)"; \
+	else \
+		echo "$(YELLOW)⚠  lacheck not installed$(NC)"; \
+	fi
+
+# Check references
+check-refs:
+	@echo "$(BLUE)🔍 Checking references...$(NC)"
+	@grep -E "\\\\(ref|cite)" Vatsal_CV.tex Vatsal_CV-shortCV.tex | grep -v "%" | \
+		if grep -E "\\?\\?" > /dev/null 2>&1; then \
+			echo "$(RED)✗ Undefined references found$(NC)"; \
+			exit 1; \
+		else \
+			echo "$(GREEN)✓ All references defined$(NC)"; \
+		fi
+
 # Help target
 help:
 	@echo "$(BLUE)━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$(NC)"
@@ -64,6 +101,10 @@ help:
 	@echo "  $(GREEN)cv$(NC)           - Compile main CV"
 	@echo "  $(GREEN)shortcv$(NC)      - Compile short CV"
 	@echo "  $(GREEN)lint$(NC)         - Run ChkTeX linter on all .tex files"
+	@echo "  $(GREEN)lint-tex$(NC)     - Lint only .tex files"
+	@echo "  $(GREEN)lint-bib$(NC)     - Check bibliography files"
+	@echo "  $(GREEN)lint-lacheck$(NC) - Run lacheck linter"
+	@echo "  $(GREEN)check-refs$(NC)   - Check for undefined references"
 	@echo "  $(GREEN)lint-verbose$(NC) - Run ChkTeX with detailed output"
 	@echo "  $(GREEN)clean$(NC)        - Remove auxiliary files"
 	@echo "  $(GREEN)help$(NC)         - Show this help message"
