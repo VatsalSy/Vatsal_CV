@@ -13,11 +13,24 @@ This is a LaTeX-based academic CV repository containing two versions of Vatsal S
 
 ```bash
 # Using Makefile (recommended)
+
+## Build Commands
 make cv          # Compile main CV
 make shortcv     # Compile short CV  
 make all         # Compile both CVs
-make lint        # Run ChkTeX linter
 make clean       # Remove auxiliary files
+make distclean   # Remove all generated files including PDFs
+
+## Linting and Validation Commands
+make lint        # Run all linters (ChkTeX on both CV files)
+make lint-tex    # Run ChkTeX linter on .tex files
+make lint-bib    # Check bibliography for warnings/errors in both CVs
+make lint-lacheck # Run lacheck linter (if installed)
+make lint-verbose # Run ChkTeX with verbose output
+make check-refs  # Check for undefined references in both CVs
+
+## Utility Commands
+make help        # Display available make targets
 
 # Manual compilation (if needed)
 pdflatex Vatsal_CV.tex
