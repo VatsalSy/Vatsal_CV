@@ -135,7 +135,7 @@ When asked to update one CV or the other:
 - Awards are emphasized with bold text only
 
 ### Funding Icons
-- `\faFlask`: 🧪 for research fellowships and monetary funding
+- `\faLightbulb`: 💡 for research fellowships and monetary funding
 - `\faServer`: 🖥️ for computational resources
 
 ### Metrics Section Icons
