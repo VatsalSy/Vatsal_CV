@@ -1,0 +1,89 @@
+{
+  "latex-workshop.chktex.enabled": true,
+  "latex-workshop.chktex.args.active": [
+    "-wall",
+    "-n22",
+    "-n30",
+    "-e16",
+    "-q"
+  ],
+  "latex-workshop.chktex.args.root": [
+    "-wall",
+    "-n22",
+    "-n30",
+    "-e16",
+    "-q"
+  ],
+  "latex-workshop.latex.recipe.default": "pdflatex*2",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex*2",
+      "tools": [
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex*2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.ist",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.synctex.gz"
+  ],
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "files.associations": {
+    "*.tex": "latex",
+    "*.sty": "latex",
+    "*.bib": "bibtex"
+  },
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "[latex]": {
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "bounded"
+  }
+}

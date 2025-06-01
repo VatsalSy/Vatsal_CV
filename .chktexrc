@@ -1,0 +1,32 @@
+# ChkTeX configuration for LaTeX CV
+# Suppress warnings that are not relevant for CV formatting
+
+# Suppress intersentence spacing warnings (common in CVs)
+CmdLine { -n2 }
+
+# Suppress dash warnings (CVs use many dashes)
+CmdLine { -n8 }
+
+# Suppress spacing around punctuation (not critical for CVs)
+CmdLine { -n11 }
+
+# Suppress "Consider using \ldots" (acceptable to use ...)
+CmdLine { -n13 }
+
+# Suppress font changing commands warnings
+CmdLine { -n25 }
+
+# Suppress command terminated with space (not critical for CVs)
+CmdLine { -n1 }
+
+# Suppress space after parenthesis (acceptable in titles)
+CmdLine { -n36 }
+
+# Suppress interword spacing warnings (already fixed where needed)
+CmdLine { -n12 }
+
+# Enable checking for undefined references
+CmdLine { -w15 }
+
+# Enable checking for multiply defined labels
+CmdLine { -w16 }

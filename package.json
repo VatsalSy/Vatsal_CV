@@ -1,0 +1,35 @@
+{
+  "name": "vatsal-cv",
+  "version": "1.0.0",
+  "description": "LaTeX CV for Vatsal Sanjay with linting configuration",
+  "scripts": {
+    "build": "make all",
+    "build:main": "make cv",
+    "build:short": "make shortcv",
+    "lint": "make lint",
+    "lint:tex": "make lint-tex",
+    "lint:bib": "make lint-bib",
+    "lint:verbose": "make lint-verbose",
+    "lint:lacheck": "make lint-lacheck",
+    "check:refs": "make check-refs",
+    "clean": "make clean",
+    "clean:all": "make distclean",
+    "precommit": "npm run lint && npm run check:refs",
+    "help": "make help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VatsalSy/Vatsal_CV.git"
+  },
+  "keywords": [
+    "latex",
+    "cv",
+    "academic",
+    "moderncv"
+  ],
+  "author": "Vatsal Sanjay",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
