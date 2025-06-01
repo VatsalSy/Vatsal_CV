@@ -65,7 +65,10 @@ lint-tex:
 lint-bib:
 	@echo "$(BLUE)🔍 Checking bibliography files...$(NC)"
 	@if [ -f mypublications.bib ]; then \
-		bibtex -terse Vatsal_CV 2>&1 | grep -E "Warning|Error" || echo "$(GREEN)✓ No bibliography issues found$(NC)"; \
+		echo "Checking Vatsal_CV bibliography..."; \
+		bibtex -terse Vatsal_CV 2>&1 | grep -E "Warning|Error" || echo "$(GREEN)✓ No bibliography issues found in Vatsal_CV$(NC)"; \
+		echo "Checking Vatsal_CV-shortCV bibliography..."; \
+		bibtex -terse Vatsal_CV-shortCV 2>&1 | grep -E "Warning|Error" || echo "$(GREEN)✓ No bibliography issues found in Vatsal_CV-shortCV$(NC)"; \
 	else \
 		echo "$(YELLOW)⚠  No bibliography file found$(NC)"; \
 	fi
