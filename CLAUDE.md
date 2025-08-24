@@ -2,66 +2,33 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository Overview
+## Start Here First
 
-This is a LaTeX-based academic CV repository containing two versions of Vatsal Sanjay's curriculum vitae:
+**IMPORTANT: Read README.md first** for complete repository overview, build commands, CV structure, and general workflows.
 
-- `Vatsal_CV.tex`: Comprehensive academic CV using moderncv banking style
-- `Vatsal_CV-shortCV.tex`: Condensed 2-page CV using moderncv classic style
+This file contains Claude-specific workflow guidance and detailed examples.
 
-## Build Commands
+## Quick Reference
 
+### Essential Commands
 ```bash
-# Using Makefile (recommended)
-
-## Build Commands
 make cv          # Compile main CV
-make shortcv     # Compile short CV  
+make shortcv     # Compile short CV
 make all         # Compile both CVs
-make clean       # Remove auxiliary files
-make distclean   # Remove all generated files including PDFs
-
-## Linting and Validation Commands
-make lint        # Run all linters (ChkTeX on both CV files)
-make lint-tex    # Run ChkTeX linter on .tex files
-make lint-bib    # Check bibliography for warnings/errors in both CVs
-make lint-lacheck # Run lacheck linter (if installed)
-make lint-verbose # Run ChkTeX with verbose output
-make check-refs  # Check for undefined references in both CVs
-
-## Utility Commands
-make help        # Display available make targets
-
-# Manual compilation (if needed)
-pdflatex Vatsal_CV.tex
-pdflatex Vatsal_CV.tex
-
-# Compile the short CV
-pdflatex Vatsal_CV-shortCV.tex
-pdflatex Vatsal_CV-shortCV.tex
+make lint        # Run all linters
 ```
 
-## Architecture
+### Key Workflow
+1. **Always update Vatsal_CV.tex first** with requested changes
+2. **Check if Vatsal_CV-shortCV.tex needs updating** (publications, metrics, awards)
+3. **Compile both CVs** to ensure proper formatting
+4. **Run linting** with `make lint` to catch errors
 
-The CVs use the `moderncv` LaTeX package with:
+## Publication Update Workflow
 
-- Custom color scheme defined in `moderncvcolordarkmagenta.sty`
-- Bibliography managed in `mypublications.bib`
-- Both versions share the same bibliography but display publications differently
+### Adding New Publications
 
-## Key Customizations
-
-- Custom darkmagenta color scheme (#68236D)
-- Hyperlinked references throughout (DOIs, URLs)
-- FontAwesome5 icons for visual elements
-- Page numbering showing current/total pages
-- Custom Euro symbol command for funding amounts
-
-## Adding/Updating Publications
-
-### For Vatsal_CV.tex (Main CV)
-
-Publications follow this exact format:
+For **Vatsal_CV.tex** (Main CV), use this exact format:
 
 ```latex
 \item [Authors with \textbf{Vatsal Sanjay} for self],\\
@@ -70,8 +37,7 @@ Publications follow this exact format:
 (OA) DOI: \href{[DOI URL]}{[DOI number]}.
 ```
 
-Example:
-
+**Example:**
 ```latex
 \item Ayush K. Dixit, Alexandros T. Oratis, Konstantinos Zinelis, Detlef Lohse, and \textbf{Vatsal Sanjay},\\
 Viscoelastic Worthington jets and droplets produced by bursting bubbles,\\
@@ -79,113 +45,77 @@ J. Fluid Mech., 1010, A2 (2025) [32 pages];\\
 (OA) DOI: \href{https://doi.org/10.1017/jfm.2025.237}{10.1017/jfm.2025.237}.
 ```
 
-Key formatting rules:
+### Critical Formatting Rules
 
 - Use `\\` at end of each line except the last
 - Page count always in format `[X pages]`
 - Semicolon `;` before final `\\` on journal line
 - For non-OA papers with preprints: `DOI: \href{...}{...}, OA: \href{...}{...}`
-- Special notes (Cover, Editor's Suggestion) go on a new line or as sub-items
 
-### For Vatsal_CV-shortCV.tex (Short CV)
+### Short CV Updates
 
-**IMPORTANT: Always select the 7 LATEST publications** (chronologically most recent, regardless of impact) in condensed format:
+**IMPORTANT:** For **Vatsal_CV-shortCV.tex**, always select the **7 LATEST publications** (chronologically most recent, not by impact):
 
 ```latex
 \item \textbf{V. Sanjay}, [coauthors], [Short title], \textit{[Journal]} [volume], [article] ([year]).
 ```
 
-Example:
-
+**Example:**
 ```latex
 \item \textbf{V. Sanjay} \& D. Lohse, Unifying theory of scaling in drop impact, \textit{Phys. Rev. Lett.}, 134, 104003 (2025).
 ```
 
-Selection criteria:
+## Common Update Scenarios
 
-- Always take the 7 most recent papers from the main CV
-- Order them from newest to oldest
-- Include year in parentheses at the end
+### New Publication Added
+1. Add to beginning of enumerated list in Vatsal_CV.tex (latest first)
+2. Update shortCV with 7 most recent publications
+3. Update total count in shortCV: "Selected publications (X total, Y+ citations)"
+4. Add BibTeX entry to mypublications.bib (for archival)
+5. Run `pdflatex` twice for both CVs
 
-### For mypublications.bib
+### Paper Accepted (from Under Review)
+1. Move from "Works Under Review" to published section in main CV
+2. Update shortCV if it's now in the 7 most recent
+3. Update metrics if needed
 
-Add proper BibTeX entries with all metadata:
+### Awards/Positions Added
+1. Add to main CV first
+2. Check if significant enough for condensed shortCV
+3. Update both if needed
 
-```bibtex
-@article{key2025,
-  author = {Last1, First1 and Last2, First2 and Sanjay, Vatsal},
-  title = {Full title with proper capitalization},
-  journal = {Full Journal Name},
-  volume = {134},
-  pages = {104003},
-  doi = {10.xxxx/xxxxx},
-  year = {2025}
-}
+## LaTeX Formatting Details
+
+### Special Characters and Commands
+- Euro symbol: Use custom `\Euro` command for funding amounts
+- Video links: `{\color{red}\faYoutube}` instead of `[Video]` text
+- Icons spacing: `\faIcon\hspace{0.3em}Text` for subsections, `\hspace{0.2em}` for inline
+
+### Publication Numbering
+```latex
+\begin{enumerate}[leftmargin=1.5em,label=\textbf{[\arabic*]}]
 ```
 
-### Update Process
+### Special Notes Format
+For journal covers or editor's suggestions, add as sub-items:
+```latex
+\begin{itemize}
+\item Journal Cover Feature
+\item Editor's Suggestion
+\end{itemize}
+```
 
-1. Add new publications to the beginning of the enumerated list (latest first) in Vatsal_CV.tex
-2. **Update Vatsal_CV-shortCV.tex with the 7 LATEST publications** (not most impactful, but chronologically newest)
-3. Update total count in shortCV: "Selected publications (X total, Y+ citations)"
-4. Add corresponding BibTeX entry to mypublications.bib
-5. Move papers from "Works Under Review" to published section when accepted
-6. Run pdflatex twice to update references and page numbers for both CVs
+## Error Handling
 
-## Update Protocol
+- **Linting errors**: Run `make lint` and fix ChkTeX warnings
+- **Reference errors**: Run `make check-refs` for undefined references
+- **Compilation issues**: Try `make clean` then recompile
+- **Formatting problems**: Double-check `\\` placement and spacing
 
-When asked to update one CV or the other:
+## Notes for Claude
 
-1. **Always update Vatsal_CV.tex first** with the requested changes
-2. **Check if Vatsal_CV-shortCV.tex needs updating** based on the change:
-   - If publications were added/modified: Update shortCV with the 7 latest publications
-   - If awards/positions were added: Check if they're significant enough for the condensed CV
-   - If metrics were updated: Update the metrics line in shortCV
-   - If contact info changed: Update in both CVs
-3. **Compile both CVs** if changes were made to ensure proper formatting
-
-## CV Formatting Symbols and Icons
-
-### Publication Symbols
-
-- `\faFile`: 📄 for open-access publications (replaces "(OA)")
-- `\faLock`: 🔒 for paywalled publications with DOI
-- `\faStar`: ⭐ for journal cover features and Editor's Suggestion
-- `\faChartLine`: 📈 for highly cited papers
-- Publication numbering: `\begin{enumerate}[leftmargin=1.5em,label=\textbf{[\arabic*]}]`
-
-### Section Icons
-
-- `\faUserGraduate`: 🎓 for PhD Theses subsection
-- `\faGraduationCap`: 🎓 for Master Theses subsection
-- `\faUniversity`: 🏫 for Bachelor Theses subsection
-- `\faUsers`: 👥 for Seminars & Conferences subsection
-- `\faCheck`: ✓ for Refereeing subsection
-- `\faMicrophone`: 🎤 for Invited Talks subsection
-- `\faComments`: 💬 for Contributed Talks subsection
-
-### Award Icons
-
-- **Note**: No icons used in Major Awards & Achievements section to maintain humility
-- Awards are emphasized with bold text only
-
-### Funding Icons
-
-- `\faLightbulb`: 💡 for research fellowships and monetary funding
-- `\faServer`: 🖥️ for computational resources
-
-### Metrics Section Icons
-
-- `\faIdCard`: 🆔 for Researcher ID
-- `\faOrcid`: ORCID logo for ORCID
-- `\faChartLine`: 📈 for Hirsch-index
-- `\faFile`: 📄 for i10-index
-- `\faUsers`: 👥 for Research Interest Score
-
-### General Formatting
-
-- Talk lists use bullet points: `\item[\textbullet]`
-- Bold position titles in Professional Experience
-- Icons should have spacing: `\faIcon\hspace{0.3em}Text` for subsections, `\hspace{0.2em}` for inline
-- Maintain consistent icon usage across similar sections
-- Video links: Use `{\color{red}\faYoutube}` instead of `[Video]` text (red YouTube icon)
+- Repository uses moderncv LaTeX package with custom darkmagenta color (#68236D)
+- Both CVs share styling but display publications differently
+- Short CV is exactly 2 pages and shows ONLY the 7 most recent publications
+- All icons and symbols are documented in README.md
+- Publications are hardcoded in .tex files (not pulled from .bib file)
