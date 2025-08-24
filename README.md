@@ -47,7 +47,7 @@ pdflatex Vatsal_CV-shortCV.tex
 ```bash
 make lint        # Run all linters (ChkTeX on both CV files)
 make lint-tex    # Run ChkTeX linter on .tex files
-make lint-bib    # Check bibliography for warnings/errors in both CVs
+make lint-bib    # Validate mypublications.bib format/consistency only (does not validate cross-references used in generated CV PDFs)
 make lint-lacheck # Run lacheck linter (if installed)
 make lint-verbose # Run ChkTeX with verbose output
 make check-refs  # Check for undefined references in both CVs
@@ -174,4 +174,4 @@ This CV template uses the moderncv LaTeX package. The content is personal academ
 
 ## Legacy Note
 
-For the customized CV option used in PhD applications, please visit <https://github.com/VatsalSy/Vatsal_CV/tree/PhDapplication>
+For the customized CV option used in PhD applications, please visit [PhD application CV](https://github.com/VatsalSy/Vatsal_CV/tree/PhDapplication).
