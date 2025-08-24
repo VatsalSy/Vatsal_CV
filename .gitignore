@@ -66,6 +66,7 @@ Thumbs.db
 *.out
 *.synctex.gz
 .windsurfrules
+**/.claude
 
 # Linting artifacts
 chktex.log
@@ -74,3 +75,6 @@ node_modules/
 package-lock.json
 *_bibertool.bib
 *.blg
+
+# Cursor AI agent configuration
+**/.cursor
