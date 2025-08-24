@@ -5,7 +5,7 @@ This repository contains the LaTeX source files for Vatsal Sanjay's academic cur
 ## Repository Contents
 
 - **`Vatsal_CV.tex`** - Comprehensive academic CV using moderncv banking style
-- **`Vatsal_CV-shortCV.tex`** - Condensed 2-page CV using moderncv classic style  
+- **`Vatsal_CV-shortCV.tex`** - Condensed 2-page CV using moderncv banking style
 - **`mypublications.bib`** - Bibliography file containing all publications
 - **`moderncvcolordarkmagenta.sty`** - Custom color scheme (#68236D)
 - **`Makefile`** - Build automation and linting tools
@@ -17,7 +17,7 @@ This repository contains the LaTeX source files for Vatsal Sanjay's academic cur
 ```bash
 # Build individual CVs
 make cv          # Compile main CV
-make shortcv     # Compile short CV  
+make shortcv     # Compile short CV
 make all         # Compile both CVs
 
 # Cleaning
@@ -63,6 +63,7 @@ make check-refs  # Check for undefined references in both CVs
 ## CV Structure
 
 ### Main CV Features
+
 - Complete publication list with DOI links
 - FontAwesome5 icons for visual elements
 - Custom darkmagenta color scheme
@@ -70,6 +71,7 @@ make check-refs  # Check for undefined references in both CVs
 - Page numbering with current/total format
 
 ### Short CV Features
+
 - Condensed 2-page format
 - **Latest 7 publications** (chronologically most recent, not most impactful)
 - Essential information only
@@ -84,6 +86,7 @@ make check-refs  # Check for undefined references in both CVs
 3. **Bibliography**: Add BibTeX entry to `mypublications.bib`
 
 ### Selection Criteria for Short CV
+
 - Always select the **7 chronologically most recent** publications
 - Order them from newest to oldest
 - Include year in parentheses at the end
@@ -107,12 +110,14 @@ make check-refs  # Check for undefined references in both CVs
 ## Symbols and Icons
 
 ### Publication Symbols
+
 - 📄 `\faFile`: Open-access publications
 - 🔒 `\faLock`: Paywalled publications with DOI
 - ⭐ `\faStar`: Journal cover features and Editor's Suggestions
 - 📈 `\faChartLine`: Highly cited papers
 
 ### Section Icons
+
 - 🎓 `\faUserGraduate`: PhD Theses subsection
 - 🎓 `\faGraduationCap`: Master Theses subsection
 - 🏫 `\faUniversity`: Bachelor Theses subsection
@@ -122,10 +127,12 @@ make check-refs  # Check for undefined references in both CVs
 - 💬 `\faComments`: Contributed Talks subsection
 
 ### Funding Icons
+
 - 💡 `\faLightbulb`: Research fellowships and monetary funding
 - 🖥️ `\faServer`: Computational resources
 
 ### Metrics Icons
+
 - 🆔 `\faIdCard`: Researcher ID
 - ORCID `\faOrcid`: ORCID identifier
 - 📈 `\faChartLine`: Hirsch-index
@@ -153,7 +160,7 @@ When updating CVs:
 
 ## Contact
 
-- **Email**: vatsal.sanjay@comphy-lab.org
+- **Email**: <vatsal.sanjay@comphy-lab.org>
 - **Website**: [comphy-lab.org](https://comphy-lab.org)
 - **ORCID**: [0000-0002-4293-6099](https://orcid.org/0000-0002-4293-6099)
 
@@ -163,4 +170,4 @@ This CV template uses the moderncv LaTeX package. The content is personal academ
 
 ## Legacy Note
 
-For the customized CV option used in PhD applications, please visit https://github.com/VatsalSy/Vatsal_CV/tree/PhDapplication
+For the customized CV option used in PhD applications, please visit <https://github.com/VatsalSy/Vatsal_CV/tree/PhDapplication>
