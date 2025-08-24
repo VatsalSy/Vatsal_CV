@@ -73,17 +73,21 @@ make check-refs  # Check for undefined references in both CVs
 ### Short CV Features
 
 - Condensed 2-page format
-- **Latest 7 publications** (chronologically most recent, not most impactful)
+- **Latest 7 publications** (chronologically most recent)
 - Essential information only
 - Same styling as main CV
 
 ## Publication Management
 
+Important: The generated CV PDFs do not compile or pull entries from `mypublications.bib`. Publication items are hardcoded directly in `Vatsal_CV.tex` (full CV) and in the short CV file `Vatsal_CV-shortCV.tex`.
+
 ### Adding New Publications
 
-1. **Main CV**: Add to beginning of enumerated list in `Vatsal_CV.tex`
-2. **Short CV**: Update with the 7 most recent publications (chronologically, not by impact)
-3. **Bibliography**: Add BibTeX entry to `mypublications.bib`
+Manual update workflow:
+
+1. **Main CV**: Edit `Vatsal_CV.tex` and add the new entry at the beginning of the enumerated list (latest first)
+2. **Short CV**: Update the short CV list in `Vatsal_CV-shortCV.tex` to include the 7 chronologically most recent publications
+3. **Bibliography**: Add the corresponding BibTeX entry to `mypublications.bib` (for archival/consistency; not used to generate the PDFs)
 
 ### Selection Criteria for Short CV
 
