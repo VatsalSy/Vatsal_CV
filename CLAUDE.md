@@ -112,6 +112,32 @@ For journal covers or editor's suggestions, add as sub-items:
 - **Compilation issues**: Try `make clean` then recompile
 - **Formatting problems**: Double-check `\\` placement and spacing
 
+## Slash Commands
+
+### `/add-pub` - Add Publication to CV
+
+**Location:** `.claude/commands/add-pub.md`
+
+**Usage:**
+```
+/add-pub [bibtex-text] [type: preprint|published]
+```
+
+**What it does:**
+1. Parses BibTeX input and extracts publication metadata
+2. Routes by publication type:
+   - **Preprints** → "Works Under Review / In Preparation" section
+   - **Published** → "Peer-Reviewed Publications" section (auto-removes from preprints if previously listed)
+3. Formats entries matching existing CV style:
+   - `\textbf{Vatsal Sanjay}` for self-citations
+   - Proper icons (`\faFile`, `\faLock`, `\faGithub`, `\faStar`)
+   - DOI/OA links, GitHub repos, page counts
+4. Updates all three files:
+   - `Vatsal_CV.tex` (main CV)
+   - `Vatsal_CV-shortCV.tex` (keeps 7 most recent)
+   - `mypublications.bib` (BibTeX archive)
+5. Asks for missing info (page count, GitHub URL, Open Access status, special features)
+
 ## Notes for Claude
 
 - Repository uses moderncv LaTeX package with custom darkmagenta color (#68236D)
@@ -119,3 +145,4 @@ For journal covers or editor's suggestions, add as sub-items:
 - Short CV is exactly 2 pages and shows ONLY the 7 most recent publications
 - All icons and symbols are documented in README.md
 - Publications are hardcoded in .tex files (not pulled from .bib file)
+- Use `/add-pub` slash command for adding new publications (handles all formatting automatically)
