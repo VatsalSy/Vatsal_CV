@@ -26,44 +26,11 @@ make lint        # Run all linters
 
 ## Publication Update Workflow
 
-### Adding New Publications
+**Canonical reference:** See `.claude/commands/add-pub.md` for complete formatting templates, icon usage (`\faFile`, `\faLock`, `\faGithub`, `\faStar`), and examples. Use the `/add-pub` slash command for adding publications.
 
-For **Vatsal_CV.tex** (Main CV), use this exact format:
+### Short CV Rule
 
-```latex
-\item [Authors with \textbf{Vatsal Sanjay} for self],\\
-[Title without quotes],\\
-[Journal abbrev.], [volume], [article#] ([year]) [[pages] pages];\\
-(OA) DOI: \href{[DOI URL]}{[DOI number]}.
-```
-
-**Example:**
-```latex
-\item Ayush K. Dixit, Alexandros T. Oratis, Konstantinos Zinelis, Detlef Lohse, and \textbf{Vatsal Sanjay},\\
-Viscoelastic Worthington jets and droplets produced by bursting bubbles,\\
-J. Fluid Mech., 1010, A2 (2025) [32 pages];\\
-(OA) DOI: \href{https://doi.org/10.1017/jfm.2025.237}{10.1017/jfm.2025.237}.
-```
-
-### Critical Formatting Rules
-
-- Use `\\` at end of each line except the last
-- Page count always in format `[X pages]`
-- Semicolon `;` before final `\\` on journal line
-- For non-OA papers with preprints: `DOI: \href{...}{...}, OA: \href{...}{...}`
-
-### Short CV Updates
-
-**IMPORTANT:** For **Vatsal_CV-shortCV.tex**, always select the **7 LATEST publications** (chronologically most recent, not by impact):
-
-```latex
-\item \textbf{V. Sanjay}, [coauthors], [Short title], \textit{[Journal]} [volume], [article] ([year]).
-```
-
-**Example:**
-```latex
-\item \textbf{V. Sanjay} \& D. Lohse, Unifying theory of scaling in drop impact, \textit{Phys. Rev. Lett.}, 134, 104003 (2025).
-```
+For **Vatsal_CV-shortCV.tex**, always select the **7 LATEST publications** (chronologically most recent, not by impact).
 
 ## Common Update Scenarios
 
@@ -119,6 +86,7 @@ For journal covers or editor's suggestions, add as sub-items:
 **Location:** `.claude/commands/add-pub.md`
 
 **Usage:**
+
 ```
 /add-pub [bibtex-text] [type: preprint|published]
 ```

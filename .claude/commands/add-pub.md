@@ -13,9 +13,9 @@ Interactively add a new publication to all CV files with proper formatting.
 ## Quick Reference
 
 ### Key Files
-- **Main CV**: `/Users/vatsal/1-github/CVetAl/Vatsal_CV/Vatsal_CV.tex`
-- **Short CV**: `/Users/vatsal/1-github/CVetAl/Vatsal_CV/Vatsal_CV-shortCV.tex`
-- **BibTeX**: `/Users/vatsal/1-github/CVetAl/Vatsal_CV/mypublications.bib`
+- **Main CV**: `./Vatsal_CV.tex`
+- **Short CV**: `./Vatsal_CV-shortCV.tex`
+- **BibTeX**: `./mypublications.bib`
 
 ### Current State
 - Date: !`date +%Y-%m-%d`
@@ -154,7 +154,6 @@ After adding a published paper, remind user to check:
 
 Remind user:
 ```bash
-cd /Users/vatsal/1-github/CVetAl/Vatsal_CV
 make all    # Compile both CVs
 make lint   # Check for errors
 ```
