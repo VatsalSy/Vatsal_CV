@@ -15,6 +15,7 @@ Interactively add a new publication to all CV files with proper formatting.
 ### Key Files
 - **Main CV**: `./Vatsal_CV.tex`
 - **Short CV**: `./Vatsal_CV-shortCV.tex`
+- **Publications Only**: `./Vatsal_CV-publicationsOnly.tex`
 - **BibTeX**: `./mypublications.bib`
 
 ### Current State
@@ -135,6 +136,22 @@ Or if Vatsal is first author:
 - Add `; \textbf{Cover}` after year if journal cover
 - Keep entries concise (one line each)
 
+### Step 6.5: Update Publications-Only CV (Vatsal_CV-publicationsOnly.tex)
+
+**For published papers only** (skip this step for preprints):
+
+1. Add the new publication to the beginning of the enumerate list
+2. Use the **same full format** as the main CV (not condensed)
+
+**Format (identical to main CV):**
+```latex
+\item [Authors with \textbf{Vatsal Sanjay} for self],\\
+[Title],\\
+[Journal abbrev.], [volume], [article#] ([year]) [[X pages]];\\
+\faFile\hspace{0.2em}DOI: \href{[DOI URL]}{[DOI number]};\\
+\faGithub\hspace{0.2em}\href{[GitHub URL]}{Repository}.
+```
+
 ### Step 7: Update BibTeX (mypublications.bib)
 
 Add the BibTeX entry at the beginning of the file (after the header comments).
@@ -221,5 +238,6 @@ J. Fluid Mech., 1010, A2 (2025) [32 pages];\\
 - [ ] BibTeX entry added to mypublications.bib
 - [ ] Main CV updated with properly formatted entry
 - [ ] Short CV updated if publication is in top 7 most recent
+- [ ] Publications-only CV updated (for published papers only)
 - [ ] If published: checked and removed any preprint version
 - [ ] User reminded to compile and verify
