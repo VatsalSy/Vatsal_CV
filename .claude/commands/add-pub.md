@@ -108,11 +108,18 @@ see also
 
 ### Step 5: Check for Existing Preprint (Published papers only)
 
-For published papers, search the "Works Under Review" section for the same title or authors.
+For published papers, search the "Works Under Review" section for an **exact title match**.
 
-If found:
+**Matching criteria:**
+- Normalize both titles: trim whitespace, compare case-insensitively
+- Do NOT match on authors alone (to avoid false positives)
+- Only remove on exact title match
+
+If exact title match found:
 1. Remove the entry from "Works Under Review" section
-2. Inform user: "Removed preprint entry from Works Under Review section"
+2. Inform user: "Removed preprint entry '[title]' from Works Under Review section"
+
+If no exact match found, do not remove any entries.
 
 ### Step 6: Update Short CV (Vatsal_CV-shortCV.tex)
 
@@ -136,7 +143,7 @@ Or if Vatsal is first author:
 - Add `; \textbf{Cover}` after year if journal cover
 - Keep entries concise (one line each)
 
-### Step 6.5: Update Publications-Only CV (Vatsal_CV-publicationsOnly.tex)
+### Step 7: Update Publications-Only CV (Vatsal_CV-publicationsOnly.tex)
 
 **For published papers only** (skip this step for preprints):
 
@@ -152,7 +159,7 @@ Or if Vatsal is first author:
 \faGithub\hspace{0.2em}\href{[GitHub URL]}{Repository}.
 ```
 
-### Step 7: Update BibTeX (mypublications.bib)
+### Step 8: Update BibTeX (mypublications.bib)
 
 Add the BibTeX entry at the beginning of the file (after the header comments).
 
@@ -161,13 +168,13 @@ Ensure proper formatting:
 - Include DOI field
 - Use abbreviated journal names
 
-### Step 8: Update Metrics
+### Step 9: Update Metrics
 
 After adding a published paper, remind user to check:
 - Total publication count in short CV: "Selected publications (X total, Y+ citations)"
 - Any citation count updates needed
 
-### Step 9: Compile and Verify
+### Step 10: Compile and Verify
 
 Remind user:
 ```bash
