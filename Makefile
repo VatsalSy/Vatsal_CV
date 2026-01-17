@@ -8,10 +8,10 @@ BLUE := \033[0;34m
 NC := \033[0m # No Color
 
 # Main targets
-.PHONY: all clean lint help cv shortcv lint-tex lint-bib lint-lacheck check-refs
+.PHONY: all clean lint help cv shortcv pubcv lint-tex lint-bib lint-lacheck check-refs
 
 # Default target
-all: lint cv shortcv
+all: lint cv shortcv pubcv
 
 # Compile main CV
 cv:
@@ -31,11 +31,21 @@ shortcv:
 	@rm -f Vatsal_CV-shortCV.build.log
 	@$(MAKE) clean
 
+# Compile publications-only CV
+pubcv:
+	@echo "$(BLUE)📄 Compiling Vatsal_CV-publicationsOnly.tex...$(NC)"
+	@pdflatex -interaction=batchmode Vatsal_CV-publicationsOnly.tex > Vatsal_CV-publicationsOnly.build.log 2>&1 || (echo "$(RED)✗ Compilation failed!$(NC)" && cat Vatsal_CV-publicationsOnly.build.log && rm -f Vatsal_CV-publicationsOnly.build.log && exit 1)
+	@pdflatex -interaction=batchmode Vatsal_CV-publicationsOnly.tex >> Vatsal_CV-publicationsOnly.build.log 2>&1 || (echo "$(RED)✗ Compilation failed!$(NC)" && cat Vatsal_CV-publicationsOnly.build.log && rm -f Vatsal_CV-publicationsOnly.build.log && exit 1)
+	@echo "$(GREEN)✓ Vatsal_CV-publicationsOnly.pdf compiled successfully$(NC)"
+	@rm -f Vatsal_CV-publicationsOnly.build.log
+	@$(MAKE) clean
+
 # Lint all LaTeX files
 lint:
 	@echo "$(BLUE)🔍 Running ChkTeX linter...$(NC)"
 	@chktex Vatsal_CV.tex > lint.log 2>&1 || true
 	@chktex Vatsal_CV-shortCV.tex >> lint.log 2>&1 || true
+	@chktex Vatsal_CV-publicationsOnly.tex >> lint.log 2>&1 || true
 	@if grep -E "Warning|Error" lint.log > /dev/null 2>&1; then \
 		echo "$(YELLOW)⚠  Linting issues found:$(NC)"; \
 		grep -E "Warning|Error" lint.log | sed 's/Warning/$(YELLOW)Warning$(NC)/g' | sed 's/Error/$(RED)Error$(NC)/g'; \
@@ -50,6 +60,7 @@ lint-verbose:
 	@echo "Running ChkTeX with verbose output..."
 	chktex -v0 Vatsal_CV.tex
 	chktex -v0 Vatsal_CV-shortCV.tex
+	chktex -v0 Vatsal_CV-publicationsOnly.tex
 
 # Clean auxiliary files
 clean:
@@ -58,7 +69,7 @@ clean:
 # Lint only TeX files
 lint-tex:
 	@echo "$(BLUE)🔍 Linting .tex files...$(NC)"
-	@chktex -q Vatsal_CV.tex Vatsal_CV-shortCV.tex || true
+	@chktex -q Vatsal_CV.tex Vatsal_CV-shortCV.tex Vatsal_CV-publicationsOnly.tex || true
 	@echo "$(GREEN)✓ TeX linting completed$(NC)"
 
 # Lint bibliography files
@@ -79,6 +90,7 @@ lint-lacheck:
 	@if command -v lacheck >/dev/null 2>&1; then \
 		lacheck Vatsal_CV.tex || true; \
 		lacheck Vatsal_CV-shortCV.tex || true; \
+		lacheck Vatsal_CV-publicationsOnly.tex || true; \
 		echo "$(GREEN)✓ lacheck completed$(NC)"; \
 	else \
 		echo "$(YELLOW)⚠  lacheck not installed$(NC)"; \
@@ -87,7 +99,7 @@ lint-lacheck:
 # Check references
 check-refs:
 	@echo "$(BLUE)🔍 Checking references...$(NC)"
-	@grep -E "\\\\(ref|cite)" Vatsal_CV.tex Vatsal_CV-shortCV.tex | grep -v "%" | \
+	@grep -E "\\\\(ref|cite)" Vatsal_CV.tex Vatsal_CV-shortCV.tex Vatsal_CV-publicationsOnly.tex | grep -v "%" | \
 		if grep -E "\\?\\?" > /dev/null 2>&1; then \
 			echo "$(RED)✗ Undefined references found$(NC)"; \
 			exit 1; \
@@ -100,9 +112,10 @@ help:
 	@echo "$(BLUE)━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$(NC)"
 	@echo "$(BLUE)         LaTeX CV Makefile Commands$(NC)"
 	@echo "$(BLUE)━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$(NC)"
-	@echo "  $(GREEN)all$(NC)          - Run linter and compile both CVs"
+	@echo "  $(GREEN)all$(NC)          - Run linter and compile all CVs"
 	@echo "  $(GREEN)cv$(NC)           - Compile main CV"
 	@echo "  $(GREEN)shortcv$(NC)      - Compile short CV"
+	@echo "  $(GREEN)pubcv$(NC)        - Compile publications-only CV"
 	@echo "  $(GREEN)lint$(NC)         - Run ChkTeX linter on all .tex files"
 	@echo "  $(GREEN)lint-tex$(NC)     - Lint only .tex files"
 	@echo "  $(GREEN)lint-bib$(NC)     - Check bibliography files"

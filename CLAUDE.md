@@ -26,44 +26,11 @@ make lint        # Run all linters
 
 ## Publication Update Workflow
 
-### Adding New Publications
+**Canonical reference:** See `.claude/commands/add-pub.md` for complete formatting templates, icon usage (`\faFile`, `\faLock`, `\faGithub`, `\faStar`), and examples. Use the `/add-pub` slash command for adding publications.
 
-For **Vatsal_CV.tex** (Main CV), use this exact format:
+### Short CV Rule
 
-```latex
-\item [Authors with \textbf{Vatsal Sanjay} for self],\\
-[Title without quotes],\\
-[Journal abbrev.], [volume], [article#] ([year]) [[pages] pages];\\
-(OA) DOI: \href{[DOI URL]}{[DOI number]}.
-```
-
-**Example:**
-```latex
-\item Ayush K. Dixit, Alexandros T. Oratis, Konstantinos Zinelis, Detlef Lohse, and \textbf{Vatsal Sanjay},\\
-Viscoelastic Worthington jets and droplets produced by bursting bubbles,\\
-J. Fluid Mech., 1010, A2 (2025) [32 pages];\\
-(OA) DOI: \href{https://doi.org/10.1017/jfm.2025.237}{10.1017/jfm.2025.237}.
-```
-
-### Critical Formatting Rules
-
-- Use `\\` at end of each line except the last
-- Page count always in format `[X pages]`
-- Semicolon `;` before final `\\` on journal line
-- For non-OA papers with preprints: `DOI: \href{...}{...}, OA: \href{...}{...}`
-
-### Short CV Updates
-
-**IMPORTANT:** For **Vatsal_CV-shortCV.tex**, always select the **7 LATEST publications** (chronologically most recent, not by impact):
-
-```latex
-\item \textbf{V. Sanjay}, [coauthors], [Short title], \textit{[Journal]} [volume], [article] ([year]).
-```
-
-**Example:**
-```latex
-\item \textbf{V. Sanjay} \& D. Lohse, Unifying theory of scaling in drop impact, \textit{Phys. Rev. Lett.}, 134, 104003 (2025).
-```
+For **Vatsal_CV-shortCV.tex**, always select the **7 LATEST publications** (chronologically most recent, not by impact).
 
 ## Common Update Scenarios
 
@@ -112,6 +79,33 @@ For journal covers or editor's suggestions, add as sub-items:
 - **Compilation issues**: Try `make clean` then recompile
 - **Formatting problems**: Double-check `\\` placement and spacing
 
+## Slash Commands
+
+### `/add-pub` - Add Publication to CV
+
+**Location:** `.claude/commands/add-pub.md`
+
+**Usage:**
+
+```
+/add-pub [bibtex-text] [type: preprint|published]
+```
+
+**What it does:**
+1. Parses BibTeX input and extracts publication metadata
+2. Routes by publication type:
+   - **Preprints** → "Works Under Review / In Preparation" section
+   - **Published** → "Peer-Reviewed Publications" section (auto-removes from preprints if previously listed)
+3. Formats entries matching existing CV style:
+   - `\textbf{Vatsal Sanjay}` for self-citations
+   - Proper icons (`\faFile`, `\faLock`, `\faGithub`, `\faStar`)
+   - DOI/OA links, GitHub repos, page counts
+4. Updates all three files:
+   - `Vatsal_CV.tex` (main CV)
+   - `Vatsal_CV-shortCV.tex` (keeps 7 most recent)
+   - `mypublications.bib` (BibTeX archive)
+5. Asks for missing info (page count, GitHub URL, Open Access status, special features)
+
 ## Notes for Claude
 
 - Repository uses moderncv LaTeX package with custom darkmagenta color (#68236D)
@@ -119,3 +113,4 @@ For journal covers or editor's suggestions, add as sub-items:
 - Short CV is exactly 2 pages and shows ONLY the 7 most recent publications
 - All icons and symbols are documented in README.md
 - Publications are hardcoded in .tex files (not pulled from .bib file)
+- Use `/add-pub` slash command for adding new publications (handles all formatting automatically)
